@@ -1,0 +1,3893 @@
+=== res:///scenes/x_650_drone.tscn ===
+Node: x650_drone (Node3D)
+  Node: <null>
+  _import_path: 
+  name: x650_drone
+  unique_name_in_owner: false
+  scene_file_path: res://scenes/x_650_drone.tscn
+  owner: <Object#null>
+  multiplayer: <Object#null>
+  Process: <null>
+  process_mode: 0
+  process_priority: 0
+  process_physics_priority: 0
+  Thread Group: <null>
+  process_thread_group: 0
+  process_thread_group_order: 0
+  process_thread_messages: 0
+  Physics Interpolation: <null>
+  physics_interpolation_mode: 0
+  Auto Translate: <null>
+  auto_translate_mode: 0
+  Editor Description: <null>
+  editor_description: 
+  Node3D: <null>
+  Transform: <null>
+  transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+  global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+  position: (0.0, 0.0, 0.0)
+  rotation: (0.0, 0.0, 0.0)
+  rotation_degrees: (0.0, 0.0, 0.0)
+  quaternion: (0, 0, 0, 1)
+  basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+  scale: (1.0, 1.0, 1.0)
+  rotation_edit_mode: 0
+  rotation_order: 2
+  top_level: false
+  global_position: (0.0, 0.0, 0.0)
+  global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+  global_rotation: (0.0, 0.0, 0.0)
+  global_rotation_degrees: (0.0, 0.0, 0.0)
+  Visibility: <null>
+  visible: true
+  visibility_parent: 
+  script: <null>
+  Node: drone_x650 (RigidBody3D)
+    Node: <null>
+    _import_path: 
+    name: drone_x650
+    unique_name_in_owner: false
+    scene_file_path: 
+    owner: x650_drone:<Node3D#4490069622888>
+    multiplayer: <Object#null>
+    Process: <null>
+    process_mode: 0
+    process_priority: 0
+    process_physics_priority: 0
+    Thread Group: <null>
+    process_thread_group: 0
+    process_thread_group_order: 0
+    process_thread_messages: 0
+    Physics Interpolation: <null>
+    physics_interpolation_mode: 0
+    Auto Translate: <null>
+    auto_translate_mode: 0
+    Editor Description: <null>
+    editor_description: 
+    Node3D: <null>
+    Transform: <null>
+    transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+    global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+    position: (0.0, 0.0, 0.0)
+    rotation: (0.0, 0.0, 0.0)
+    rotation_degrees: (0.0, 0.0, 0.0)
+    quaternion: (0, 0, 0, 1)
+    basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+    scale: (1.0, 1.0, 1.0)
+    rotation_edit_mode: 0
+    rotation_order: 2
+    top_level: false
+    global_position: (0.0, 0.0, 0.0)
+    global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+    global_rotation: (0.0, 0.0, 0.0)
+    global_rotation_degrees: (0.0, 0.0, 0.0)
+    Visibility: <null>
+    visible: true
+    visibility_parent: 
+    CollisionObject3D: <null>
+    disable_mode: 0
+    Collision: <null>
+    collision_layer: 1
+    collision_mask: 1
+    collision_priority: 1.0
+    Input: <null>
+    input_ray_pickable: true
+    input_capture_on_drag: false
+    PhysicsBody3D: <null>
+    Axis Lock: <null>
+    axis_lock_linear_x: false
+    axis_lock_linear_y: false
+    axis_lock_linear_z: false
+    axis_lock_angular_x: false
+    axis_lock_angular_y: false
+    axis_lock_angular_z: false
+    RigidBody3D: <null>
+    mass: 1.0
+    physics_material_override: <Object#null>
+    gravity_scale: 1.0
+    Mass Distribution: <null>
+    center_of_mass_mode: 0
+    center_of_mass: (0.0, 0.0, 0.0)
+    inertia: (0.0, 0.0, 0.0)
+    Deactivation: <null>
+    sleeping: false
+    can_sleep: true
+    lock_rotation: false
+    freeze: false
+    freeze_mode: 0
+    Solver: <null>
+    custom_integrator: false
+    continuous_cd: false
+    contact_monitor: false
+    max_contacts_reported: 0
+    Linear: <null>
+    linear_velocity: (0.0, 0.0, 0.0)
+    linear_damp_mode: 0
+    linear_damp: 0.0
+    Angular: <null>
+    angular_velocity: (0.0, 0.0, 0.0)
+    angular_damp_mode: 0
+    angular_damp: 0.0
+    Constant Forces: <null>
+    constant_force: (0.0, 0.0, 0.0)
+    constant_torque: (0.0, 0.0, 0.0)
+    script: <null>
+    Node: FL_socket (Node3D)
+      Node: <null>
+      _import_path: 
+      name: FL_socket
+      unique_name_in_owner: false
+      scene_file_path: 
+      owner: x650_drone:<Node3D#4490069622888>
+      multiplayer: <Object#null>
+      Process: <null>
+      process_mode: 0
+      process_priority: 0
+      process_physics_priority: 0
+      Thread Group: <null>
+      process_thread_group: 0
+      process_thread_group_order: 0
+      process_thread_messages: 0
+      Physics Interpolation: <null>
+      physics_interpolation_mode: 0
+      Auto Translate: <null>
+      auto_translate_mode: 0
+      Editor Description: <null>
+      editor_description: 
+      Node3D: <null>
+      Transform: <null>
+      transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (-0.229946, 0.070032, -0.2299)]
+      global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      position: (-0.229946, 0.070032, -0.2299)
+      rotation: (0.0, 0.0, 0.0)
+      rotation_degrees: (0.0, 0.0, 0.0)
+      quaternion: (0, 0, 0, 1)
+      basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      scale: (1.0, 1.0, 1.0)
+      rotation_edit_mode: 0
+      rotation_order: 2
+      top_level: false
+      global_position: (0.0, 0.0, 0.0)
+      global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      global_rotation: (0.0, 0.0, 0.0)
+      global_rotation_degrees: (0.0, 0.0, 0.0)
+      Visibility: <null>
+      visible: true
+      visibility_parent: 
+      script: <null>
+      Node: FL_object (MeshInstance3D)
+        Node: <null>
+        _import_path: 
+        name: FL_object
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: x650_drone:<Node3D#4490069622888>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (0.0, 0.0, 0.0)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        scale: (1.0, 1.0, 1.0)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        VisualInstance3D: <null>
+        layers: 1
+        Sorting: <null>
+        sorting_offset: 0.0
+        sorting_use_aabb_center: true
+        GeometryInstance3D: <null>
+        Geometry: <null>
+        material_override: <Object#null>
+        material_overlay: <Object#null>
+        transparency: 0.0
+        cast_shadow: 1
+        extra_cull_margin: 0.0
+        custom_aabb: [P: (0.0, 0.0, 0.0), S: (0.0, 0.0, 0.0)]
+        lod_bias: 1.0
+        ignore_occlusion_culling: false
+        Global Illumination: <null>
+        gi_mode: 1
+        gi_lightmap_texel_scale: 1.0
+        gi_lightmap_scale: 0
+        Visibility Range: <null>
+        visibility_range_begin: 0.0
+        visibility_range_begin_margin: 0.0
+        visibility_range_end: 0.0
+        visibility_range_end_margin: 0.0
+        visibility_range_fade_mode: 0
+        MeshInstance3D: <null>
+        mesh: <ArrayMesh#-9223369851957855494>
+        Skeleton: <null>
+        skin: <Object#null>
+        skeleton: 
+        : <null>
+        surface_material_override/0: <StandardMaterial3D#-9223369852058518788>
+        script: <null>
+    Node: FR_socket (Node3D)
+      Node: <null>
+      _import_path: 
+      name: FR_socket
+      unique_name_in_owner: false
+      scene_file_path: 
+      owner: x650_drone:<Node3D#4490069622888>
+      multiplayer: <Object#null>
+      Process: <null>
+      process_mode: 0
+      process_priority: 0
+      process_physics_priority: 0
+      Thread Group: <null>
+      process_thread_group: 0
+      process_thread_group_order: 0
+      process_thread_messages: 0
+      Physics Interpolation: <null>
+      physics_interpolation_mode: 0
+      Auto Translate: <null>
+      auto_translate_mode: 0
+      Editor Description: <null>
+      editor_description: 
+      Node3D: <null>
+      Transform: <null>
+      transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.229946, 0.070032, -0.2299)]
+      global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      position: (0.229946, 0.070032, -0.2299)
+      rotation: (0.0, 0.0, 0.0)
+      rotation_degrees: (0.0, 0.0, 0.0)
+      quaternion: (0, 0, 0, 1)
+      basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      scale: (1.0, 1.0, 1.0)
+      rotation_edit_mode: 0
+      rotation_order: 2
+      top_level: false
+      global_position: (0.0, 0.0, 0.0)
+      global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      global_rotation: (0.0, 0.0, 0.0)
+      global_rotation_degrees: (0.0, 0.0, 0.0)
+      Visibility: <null>
+      visible: true
+      visibility_parent: 
+      script: <null>
+      Node: FR_object (MeshInstance3D)
+        Node: <null>
+        _import_path: 
+        name: FR_object
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: x650_drone:<Node3D#4490069622888>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (0.0, 0.0, 0.0)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        scale: (1.0, 1.0, 1.0)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        VisualInstance3D: <null>
+        layers: 1
+        Sorting: <null>
+        sorting_offset: 0.0
+        sorting_use_aabb_center: true
+        GeometryInstance3D: <null>
+        Geometry: <null>
+        material_override: <Object#null>
+        material_overlay: <Object#null>
+        transparency: 0.0
+        cast_shadow: 1
+        extra_cull_margin: 0.0
+        custom_aabb: [P: (0.0, 0.0, 0.0), S: (0.0, 0.0, 0.0)]
+        lod_bias: 1.0
+        ignore_occlusion_culling: false
+        Global Illumination: <null>
+        gi_mode: 1
+        gi_lightmap_texel_scale: 1.0
+        gi_lightmap_scale: 0
+        Visibility Range: <null>
+        visibility_range_begin: 0.0
+        visibility_range_begin_margin: 0.0
+        visibility_range_end: 0.0
+        visibility_range_end_margin: 0.0
+        visibility_range_fade_mode: 0
+        MeshInstance3D: <null>
+        mesh: <ArrayMesh#-9223369851890746633>
+        Skeleton: <null>
+        skin: <Object#null>
+        skeleton: 
+        : <null>
+        surface_material_override/0: <StandardMaterial3D#-9223369852058518788>
+        script: <null>
+    Node: RL_socket (Node3D)
+      Node: <null>
+      _import_path: 
+      name: RL_socket
+      unique_name_in_owner: false
+      scene_file_path: 
+      owner: x650_drone:<Node3D#4490069622888>
+      multiplayer: <Object#null>
+      Process: <null>
+      process_mode: 0
+      process_priority: 0
+      process_physics_priority: 0
+      Thread Group: <null>
+      process_thread_group: 0
+      process_thread_group_order: 0
+      process_thread_messages: 0
+      Physics Interpolation: <null>
+      physics_interpolation_mode: 0
+      Auto Translate: <null>
+      auto_translate_mode: 0
+      Editor Description: <null>
+      editor_description: 
+      Node3D: <null>
+      Transform: <null>
+      transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (-0.229946, 0.070032, 0.2299)]
+      global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      position: (-0.229946, 0.070032, 0.2299)
+      rotation: (0.0, 0.0, 0.0)
+      rotation_degrees: (0.0, 0.0, 0.0)
+      quaternion: (0, 0, 0, 1)
+      basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      scale: (1.0, 1.0, 1.0)
+      rotation_edit_mode: 0
+      rotation_order: 2
+      top_level: false
+      global_position: (0.0, 0.0, 0.0)
+      global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      global_rotation: (0.0, 0.0, 0.0)
+      global_rotation_degrees: (0.0, 0.0, 0.0)
+      Visibility: <null>
+      visible: true
+      visibility_parent: 
+      script: <null>
+      Node: RL_object (MeshInstance3D)
+        Node: <null>
+        _import_path: 
+        name: RL_object
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: x650_drone:<Node3D#4490069622888>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (0.0, 0.0, 0.0)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        scale: (1.0, 1.0, 1.0)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        VisualInstance3D: <null>
+        layers: 1
+        Sorting: <null>
+        sorting_offset: 0.0
+        sorting_use_aabb_center: true
+        GeometryInstance3D: <null>
+        Geometry: <null>
+        material_override: <Object#null>
+        material_overlay: <Object#null>
+        transparency: 0.0
+        cast_shadow: 1
+        extra_cull_margin: 0.0
+        custom_aabb: [P: (0.0, 0.0, 0.0), S: (0.0, 0.0, 0.0)]
+        lod_bias: 1.0
+        ignore_occlusion_culling: false
+        Global Illumination: <null>
+        gi_mode: 1
+        gi_lightmap_texel_scale: 1.0
+        gi_lightmap_scale: 0
+        Visibility Range: <null>
+        visibility_range_begin: 0.0
+        visibility_range_begin_margin: 0.0
+        visibility_range_end: 0.0
+        visibility_range_end_margin: 0.0
+        visibility_range_fade_mode: 0
+        MeshInstance3D: <null>
+        mesh: <ArrayMesh#-9223369851840414988>
+        Skeleton: <null>
+        skin: <Object#null>
+        skeleton: 
+        : <null>
+        surface_material_override/0: <StandardMaterial3D#-9223369852058518788>
+        script: <null>
+    Node: RR_socket (Node3D)
+      Node: <null>
+      _import_path: 
+      name: RR_socket
+      unique_name_in_owner: false
+      scene_file_path: 
+      owner: x650_drone:<Node3D#4490069622888>
+      multiplayer: <Object#null>
+      Process: <null>
+      process_mode: 0
+      process_priority: 0
+      process_physics_priority: 0
+      Thread Group: <null>
+      process_thread_group: 0
+      process_thread_group_order: 0
+      process_thread_messages: 0
+      Physics Interpolation: <null>
+      physics_interpolation_mode: 0
+      Auto Translate: <null>
+      auto_translate_mode: 0
+      Editor Description: <null>
+      editor_description: 
+      Node3D: <null>
+      Transform: <null>
+      transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.229946, 0.070032, 0.2299)]
+      global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      position: (0.229946, 0.070032, 0.2299)
+      rotation: (0.0, 0.0, 0.0)
+      rotation_degrees: (0.0, 0.0, 0.0)
+      quaternion: (0, 0, 0, 1)
+      basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      scale: (1.0, 1.0, 1.0)
+      rotation_edit_mode: 0
+      rotation_order: 2
+      top_level: false
+      global_position: (0.0, 0.0, 0.0)
+      global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      global_rotation: (0.0, 0.0, 0.0)
+      global_rotation_degrees: (0.0, 0.0, 0.0)
+      Visibility: <null>
+      visible: true
+      visibility_parent: 
+      script: <null>
+      Node: RR_object (MeshInstance3D)
+        Node: <null>
+        _import_path: 
+        name: RR_object
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: x650_drone:<Node3D#4490069622888>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (0.0, 0.0, 0.0)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        scale: (1.0, 1.0, 1.0)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        VisualInstance3D: <null>
+        layers: 1
+        Sorting: <null>
+        sorting_offset: 0.0
+        sorting_use_aabb_center: true
+        GeometryInstance3D: <null>
+        Geometry: <null>
+        material_override: <Object#null>
+        material_overlay: <Object#null>
+        transparency: 0.0
+        cast_shadow: 1
+        extra_cull_margin: 0.0
+        custom_aabb: [P: (0.0, 0.0, 0.0), S: (0.0, 0.0, 0.0)]
+        lod_bias: 1.0
+        ignore_occlusion_culling: false
+        Global Illumination: <null>
+        gi_mode: 1
+        gi_lightmap_texel_scale: 1.0
+        gi_lightmap_scale: 0
+        Visibility Range: <null>
+        visibility_range_begin: 0.0
+        visibility_range_begin_margin: 0.0
+        visibility_range_end: 0.0
+        visibility_range_end_margin: 0.0
+        visibility_range_fade_mode: 0
+        MeshInstance3D: <null>
+        mesh: <ArrayMesh#-9223369851790083343>
+        Skeleton: <null>
+        skin: <Object#null>
+        skeleton: 
+        : <null>
+        surface_material_override/0: <StandardMaterial3D#-9223369852058518788>
+        script: <null>
+    Node: drone_x650 (MeshInstance3D)
+      Node: <null>
+      _import_path: 
+      name: drone_x650
+      unique_name_in_owner: false
+      scene_file_path: 
+      owner: x650_drone:<Node3D#4490069622888>
+      multiplayer: <Object#null>
+      Process: <null>
+      process_mode: 0
+      process_priority: 0
+      process_physics_priority: 0
+      Thread Group: <null>
+      process_thread_group: 0
+      process_thread_group_order: 0
+      process_thread_messages: 0
+      Physics Interpolation: <null>
+      physics_interpolation_mode: 0
+      Auto Translate: <null>
+      auto_translate_mode: 0
+      Editor Description: <null>
+      editor_description: 
+      Node3D: <null>
+      Transform: <null>
+      transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      position: (0.0, 0.0, 0.0)
+      rotation: (0.0, 0.0, 0.0)
+      rotation_degrees: (0.0, 0.0, 0.0)
+      quaternion: (0, 0, 0, 1)
+      basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      scale: (1.0, 1.0, 1.0)
+      rotation_edit_mode: 0
+      rotation_order: 2
+      top_level: false
+      global_position: (0.0, 0.0, 0.0)
+      global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      global_rotation: (0.0, 0.0, 0.0)
+      global_rotation_degrees: (0.0, 0.0, 0.0)
+      Visibility: <null>
+      visible: true
+      visibility_parent: 
+      VisualInstance3D: <null>
+      layers: 1
+      Sorting: <null>
+      sorting_offset: 0.0
+      sorting_use_aabb_center: true
+      GeometryInstance3D: <null>
+      Geometry: <null>
+      material_override: <Object#null>
+      material_overlay: <Object#null>
+      transparency: 0.0
+      cast_shadow: 1
+      extra_cull_margin: 0.0
+      custom_aabb: [P: (0.0, 0.0, 0.0), S: (0.0, 0.0, 0.0)]
+      lod_bias: 1.0
+      ignore_occlusion_culling: false
+      Global Illumination: <null>
+      gi_mode: 1
+      gi_lightmap_texel_scale: 1.0
+      gi_lightmap_scale: 0
+      Visibility Range: <null>
+      visibility_range_begin: 0.0
+      visibility_range_begin_margin: 0.0
+      visibility_range_end: 0.0
+      visibility_range_end_margin: 0.0
+      visibility_range_fade_mode: 0
+      MeshInstance3D: <null>
+      mesh: <ArrayMesh#-9223369851722974482>
+      Skeleton: <null>
+      skin: <Object#null>
+      skeleton: 
+      : <null>
+      surface_material_override/0: <Object#null>
+      script: <null>
+    Node: CollisionShape3D19 (CollisionShape3D)
+      Node: <null>
+      _import_path: 
+      name: CollisionShape3D19
+      unique_name_in_owner: false
+      scene_file_path: 
+      owner: x650_drone:<Node3D#4490069622888>
+      multiplayer: <Object#null>
+      Process: <null>
+      process_mode: 0
+      process_priority: 0
+      process_physics_priority: 0
+      Thread Group: <null>
+      process_thread_group: 0
+      process_thread_group_order: 0
+      process_thread_messages: 0
+      Physics Interpolation: <null>
+      physics_interpolation_mode: 0
+      Auto Translate: <null>
+      auto_translate_mode: 0
+      Editor Description: <null>
+      editor_description: 
+      Node3D: <null>
+      Transform: <null>
+      transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      position: (0.0, 0.0, 0.0)
+      rotation: (0.0, 0.0, 0.0)
+      rotation_degrees: (0.0, 0.0, 0.0)
+      quaternion: (0, 0, 0, 1)
+      basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      scale: (1.0, 1.0, 1.0)
+      rotation_edit_mode: 0
+      rotation_order: 2
+      top_level: false
+      global_position: (0.0, 0.0, 0.0)
+      global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      global_rotation: (0.0, 0.0, 0.0)
+      global_rotation_degrees: (0.0, 0.0, 0.0)
+      Visibility: <null>
+      visible: true
+      visibility_parent: 
+      CollisionShape3D: <null>
+      shape: <ConvexPolygonShape3D#-9223369851689420051>
+      disabled: false
+      debug_color: (0.0, 0.6, 0.7, 0.42)
+      debug_fill: true
+      script: <null>
+    Node: CollisionShape3D18 (CollisionShape3D)
+      Node: <null>
+      _import_path: 
+      name: CollisionShape3D18
+      unique_name_in_owner: false
+      scene_file_path: 
+      owner: x650_drone:<Node3D#4490069622888>
+      multiplayer: <Object#null>
+      Process: <null>
+      process_mode: 0
+      process_priority: 0
+      process_physics_priority: 0
+      Thread Group: <null>
+      process_thread_group: 0
+      process_thread_group_order: 0
+      process_thread_messages: 0
+      Physics Interpolation: <null>
+      physics_interpolation_mode: 0
+      Auto Translate: <null>
+      auto_translate_mode: 0
+      Editor Description: <null>
+      editor_description: 
+      Node3D: <null>
+      Transform: <null>
+      transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      position: (0.0, 0.0, 0.0)
+      rotation: (0.0, 0.0, 0.0)
+      rotation_degrees: (0.0, 0.0, 0.0)
+      quaternion: (0, 0, 0, 1)
+      basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      scale: (1.0, 1.0, 1.0)
+      rotation_edit_mode: 0
+      rotation_order: 2
+      top_level: false
+      global_position: (0.0, 0.0, 0.0)
+      global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      global_rotation: (0.0, 0.0, 0.0)
+      global_rotation_degrees: (0.0, 0.0, 0.0)
+      Visibility: <null>
+      visible: true
+      visibility_parent: 
+      CollisionShape3D: <null>
+      shape: <ConvexPolygonShape3D#-9223369851672642836>
+      disabled: false
+      debug_color: (0.0, 0.6, 0.7, 0.42)
+      debug_fill: true
+      script: <null>
+    Node: CollisionShape3D17 (CollisionShape3D)
+      Node: <null>
+      _import_path: 
+      name: CollisionShape3D17
+      unique_name_in_owner: false
+      scene_file_path: 
+      owner: x650_drone:<Node3D#4490069622888>
+      multiplayer: <Object#null>
+      Process: <null>
+      process_mode: 0
+      process_priority: 0
+      process_physics_priority: 0
+      Thread Group: <null>
+      process_thread_group: 0
+      process_thread_group_order: 0
+      process_thread_messages: 0
+      Physics Interpolation: <null>
+      physics_interpolation_mode: 0
+      Auto Translate: <null>
+      auto_translate_mode: 0
+      Editor Description: <null>
+      editor_description: 
+      Node3D: <null>
+      Transform: <null>
+      transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      position: (0.0, 0.0, 0.0)
+      rotation: (0.0, 0.0, 0.0)
+      rotation_degrees: (0.0, 0.0, 0.0)
+      quaternion: (0, 0, 0, 1)
+      basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      scale: (1.0, 1.0, 1.0)
+      rotation_edit_mode: 0
+      rotation_order: 2
+      top_level: false
+      global_position: (0.0, 0.0, 0.0)
+      global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      global_rotation: (0.0, 0.0, 0.0)
+      global_rotation_degrees: (0.0, 0.0, 0.0)
+      Visibility: <null>
+      visible: true
+      visibility_parent: 
+      CollisionShape3D: <null>
+      shape: <ConvexPolygonShape3D#-9223369851655865621>
+      disabled: false
+      debug_color: (0.0, 0.6, 0.7, 0.42)
+      debug_fill: true
+      script: <null>
+    Node: CollisionShape3D16 (CollisionShape3D)
+      Node: <null>
+      _import_path: 
+      name: CollisionShape3D16
+      unique_name_in_owner: false
+      scene_file_path: 
+      owner: x650_drone:<Node3D#4490069622888>
+      multiplayer: <Object#null>
+      Process: <null>
+      process_mode: 0
+      process_priority: 0
+      process_physics_priority: 0
+      Thread Group: <null>
+      process_thread_group: 0
+      process_thread_group_order: 0
+      process_thread_messages: 0
+      Physics Interpolation: <null>
+      physics_interpolation_mode: 0
+      Auto Translate: <null>
+      auto_translate_mode: 0
+      Editor Description: <null>
+      editor_description: 
+      Node3D: <null>
+      Transform: <null>
+      transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      position: (0.0, 0.0, 0.0)
+      rotation: (0.0, 0.0, 0.0)
+      rotation_degrees: (0.0, 0.0, 0.0)
+      quaternion: (0, 0, 0, 1)
+      basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      scale: (1.0, 1.0, 1.0)
+      rotation_edit_mode: 0
+      rotation_order: 2
+      top_level: false
+      global_position: (0.0, 0.0, 0.0)
+      global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      global_rotation: (0.0, 0.0, 0.0)
+      global_rotation_degrees: (0.0, 0.0, 0.0)
+      Visibility: <null>
+      visible: true
+      visibility_parent: 
+      CollisionShape3D: <null>
+      shape: <ConvexPolygonShape3D#-9223369851639088406>
+      disabled: false
+      debug_color: (0.0, 0.6, 0.7, 0.42)
+      debug_fill: true
+      script: <null>
+    Node: CollisionShape3D15 (CollisionShape3D)
+      Node: <null>
+      _import_path: 
+      name: CollisionShape3D15
+      unique_name_in_owner: false
+      scene_file_path: 
+      owner: x650_drone:<Node3D#4490069622888>
+      multiplayer: <Object#null>
+      Process: <null>
+      process_mode: 0
+      process_priority: 0
+      process_physics_priority: 0
+      Thread Group: <null>
+      process_thread_group: 0
+      process_thread_group_order: 0
+      process_thread_messages: 0
+      Physics Interpolation: <null>
+      physics_interpolation_mode: 0
+      Auto Translate: <null>
+      auto_translate_mode: 0
+      Editor Description: <null>
+      editor_description: 
+      Node3D: <null>
+      Transform: <null>
+      transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      position: (0.0, 0.0, 0.0)
+      rotation: (0.0, 0.0, 0.0)
+      rotation_degrees: (0.0, 0.0, 0.0)
+      quaternion: (0, 0, 0, 1)
+      basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      scale: (1.0, 1.0, 1.0)
+      rotation_edit_mode: 0
+      rotation_order: 2
+      top_level: false
+      global_position: (0.0, 0.0, 0.0)
+      global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      global_rotation: (0.0, 0.0, 0.0)
+      global_rotation_degrees: (0.0, 0.0, 0.0)
+      Visibility: <null>
+      visible: true
+      visibility_parent: 
+      CollisionShape3D: <null>
+      shape: <ConvexPolygonShape3D#-9223369851622311191>
+      disabled: false
+      debug_color: (0.0, 0.6, 0.7, 0.42)
+      debug_fill: true
+      script: <null>
+    Node: CollisionShape3D14 (CollisionShape3D)
+      Node: <null>
+      _import_path: 
+      name: CollisionShape3D14
+      unique_name_in_owner: false
+      scene_file_path: 
+      owner: x650_drone:<Node3D#4490069622888>
+      multiplayer: <Object#null>
+      Process: <null>
+      process_mode: 0
+      process_priority: 0
+      process_physics_priority: 0
+      Thread Group: <null>
+      process_thread_group: 0
+      process_thread_group_order: 0
+      process_thread_messages: 0
+      Physics Interpolation: <null>
+      physics_interpolation_mode: 0
+      Auto Translate: <null>
+      auto_translate_mode: 0
+      Editor Description: <null>
+      editor_description: 
+      Node3D: <null>
+      Transform: <null>
+      transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      position: (0.0, 0.0, 0.0)
+      rotation: (0.0, 0.0, 0.0)
+      rotation_degrees: (0.0, 0.0, 0.0)
+      quaternion: (0, 0, 0, 1)
+      basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      scale: (1.0, 1.0, 1.0)
+      rotation_edit_mode: 0
+      rotation_order: 2
+      top_level: false
+      global_position: (0.0, 0.0, 0.0)
+      global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      global_rotation: (0.0, 0.0, 0.0)
+      global_rotation_degrees: (0.0, 0.0, 0.0)
+      Visibility: <null>
+      visible: true
+      visibility_parent: 
+      CollisionShape3D: <null>
+      shape: <ConvexPolygonShape3D#-9223369851605533976>
+      disabled: false
+      debug_color: (0.0, 0.6, 0.7, 0.42)
+      debug_fill: true
+      script: <null>
+    Node: CollisionShape3D13 (CollisionShape3D)
+      Node: <null>
+      _import_path: 
+      name: CollisionShape3D13
+      unique_name_in_owner: false
+      scene_file_path: 
+      owner: x650_drone:<Node3D#4490069622888>
+      multiplayer: <Object#null>
+      Process: <null>
+      process_mode: 0
+      process_priority: 0
+      process_physics_priority: 0
+      Thread Group: <null>
+      process_thread_group: 0
+      process_thread_group_order: 0
+      process_thread_messages: 0
+      Physics Interpolation: <null>
+      physics_interpolation_mode: 0
+      Auto Translate: <null>
+      auto_translate_mode: 0
+      Editor Description: <null>
+      editor_description: 
+      Node3D: <null>
+      Transform: <null>
+      transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      position: (0.0, 0.0, 0.0)
+      rotation: (0.0, 0.0, 0.0)
+      rotation_degrees: (0.0, 0.0, 0.0)
+      quaternion: (0, 0, 0, 1)
+      basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      scale: (1.0, 1.0, 1.0)
+      rotation_edit_mode: 0
+      rotation_order: 2
+      top_level: false
+      global_position: (0.0, 0.0, 0.0)
+      global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      global_rotation: (0.0, 0.0, 0.0)
+      global_rotation_degrees: (0.0, 0.0, 0.0)
+      Visibility: <null>
+      visible: true
+      visibility_parent: 
+      CollisionShape3D: <null>
+      shape: <ConvexPolygonShape3D#-9223369851588756761>
+      disabled: false
+      debug_color: (0.0, 0.6, 0.7, 0.42)
+      debug_fill: true
+      script: <null>
+    Node: CollisionShape3D12 (CollisionShape3D)
+      Node: <null>
+      _import_path: 
+      name: CollisionShape3D12
+      unique_name_in_owner: false
+      scene_file_path: 
+      owner: x650_drone:<Node3D#4490069622888>
+      multiplayer: <Object#null>
+      Process: <null>
+      process_mode: 0
+      process_priority: 0
+      process_physics_priority: 0
+      Thread Group: <null>
+      process_thread_group: 0
+      process_thread_group_order: 0
+      process_thread_messages: 0
+      Physics Interpolation: <null>
+      physics_interpolation_mode: 0
+      Auto Translate: <null>
+      auto_translate_mode: 0
+      Editor Description: <null>
+      editor_description: 
+      Node3D: <null>
+      Transform: <null>
+      transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      position: (0.0, 0.0, 0.0)
+      rotation: (0.0, 0.0, 0.0)
+      rotation_degrees: (0.0, 0.0, 0.0)
+      quaternion: (0, 0, 0, 1)
+      basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      scale: (1.0, 1.0, 1.0)
+      rotation_edit_mode: 0
+      rotation_order: 2
+      top_level: false
+      global_position: (0.0, 0.0, 0.0)
+      global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      global_rotation: (0.0, 0.0, 0.0)
+      global_rotation_degrees: (0.0, 0.0, 0.0)
+      Visibility: <null>
+      visible: true
+      visibility_parent: 
+      CollisionShape3D: <null>
+      shape: <ConvexPolygonShape3D#-9223369851571979546>
+      disabled: false
+      debug_color: (0.0, 0.6, 0.7, 0.42)
+      debug_fill: true
+      script: <null>
+    Node: CollisionShape3D11 (CollisionShape3D)
+      Node: <null>
+      _import_path: 
+      name: CollisionShape3D11
+      unique_name_in_owner: false
+      scene_file_path: 
+      owner: x650_drone:<Node3D#4490069622888>
+      multiplayer: <Object#null>
+      Process: <null>
+      process_mode: 0
+      process_priority: 0
+      process_physics_priority: 0
+      Thread Group: <null>
+      process_thread_group: 0
+      process_thread_group_order: 0
+      process_thread_messages: 0
+      Physics Interpolation: <null>
+      physics_interpolation_mode: 0
+      Auto Translate: <null>
+      auto_translate_mode: 0
+      Editor Description: <null>
+      editor_description: 
+      Node3D: <null>
+      Transform: <null>
+      transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      position: (0.0, 0.0, 0.0)
+      rotation: (0.0, 0.0, 0.0)
+      rotation_degrees: (0.0, 0.0, 0.0)
+      quaternion: (0, 0, 0, 1)
+      basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      scale: (1.0, 1.0, 1.0)
+      rotation_edit_mode: 0
+      rotation_order: 2
+      top_level: false
+      global_position: (0.0, 0.0, 0.0)
+      global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      global_rotation: (0.0, 0.0, 0.0)
+      global_rotation_degrees: (0.0, 0.0, 0.0)
+      Visibility: <null>
+      visible: true
+      visibility_parent: 
+      CollisionShape3D: <null>
+      shape: <ConvexPolygonShape3D#-9223369851555202331>
+      disabled: false
+      debug_color: (0.0, 0.6, 0.7, 0.42)
+      debug_fill: true
+      script: <null>
+    Node: CollisionShape3D10 (CollisionShape3D)
+      Node: <null>
+      _import_path: 
+      name: CollisionShape3D10
+      unique_name_in_owner: false
+      scene_file_path: 
+      owner: x650_drone:<Node3D#4490069622888>
+      multiplayer: <Object#null>
+      Process: <null>
+      process_mode: 0
+      process_priority: 0
+      process_physics_priority: 0
+      Thread Group: <null>
+      process_thread_group: 0
+      process_thread_group_order: 0
+      process_thread_messages: 0
+      Physics Interpolation: <null>
+      physics_interpolation_mode: 0
+      Auto Translate: <null>
+      auto_translate_mode: 0
+      Editor Description: <null>
+      editor_description: 
+      Node3D: <null>
+      Transform: <null>
+      transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      position: (0.0, 0.0, 0.0)
+      rotation: (0.0, 0.0, 0.0)
+      rotation_degrees: (0.0, 0.0, 0.0)
+      quaternion: (0, 0, 0, 1)
+      basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      scale: (1.0, 1.0, 1.0)
+      rotation_edit_mode: 0
+      rotation_order: 2
+      top_level: false
+      global_position: (0.0, 0.0, 0.0)
+      global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      global_rotation: (0.0, 0.0, 0.0)
+      global_rotation_degrees: (0.0, 0.0, 0.0)
+      Visibility: <null>
+      visible: true
+      visibility_parent: 
+      CollisionShape3D: <null>
+      shape: <ConvexPolygonShape3D#-9223369851538425116>
+      disabled: false
+      debug_color: (0.0, 0.6, 0.7, 0.42)
+      debug_fill: true
+      script: <null>
+    Node: CollisionShape3D9 (CollisionShape3D)
+      Node: <null>
+      _import_path: 
+      name: CollisionShape3D9
+      unique_name_in_owner: false
+      scene_file_path: 
+      owner: x650_drone:<Node3D#4490069622888>
+      multiplayer: <Object#null>
+      Process: <null>
+      process_mode: 0
+      process_priority: 0
+      process_physics_priority: 0
+      Thread Group: <null>
+      process_thread_group: 0
+      process_thread_group_order: 0
+      process_thread_messages: 0
+      Physics Interpolation: <null>
+      physics_interpolation_mode: 0
+      Auto Translate: <null>
+      auto_translate_mode: 0
+      Editor Description: <null>
+      editor_description: 
+      Node3D: <null>
+      Transform: <null>
+      transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      position: (0.0, 0.0, 0.0)
+      rotation: (0.0, 0.0, 0.0)
+      rotation_degrees: (0.0, 0.0, 0.0)
+      quaternion: (0, 0, 0, 1)
+      basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      scale: (1.0, 1.0, 1.0)
+      rotation_edit_mode: 0
+      rotation_order: 2
+      top_level: false
+      global_position: (0.0, 0.0, 0.0)
+      global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      global_rotation: (0.0, 0.0, 0.0)
+      global_rotation_degrees: (0.0, 0.0, 0.0)
+      Visibility: <null>
+      visible: true
+      visibility_parent: 
+      CollisionShape3D: <null>
+      shape: <ConvexPolygonShape3D#-9223369851521647901>
+      disabled: false
+      debug_color: (0.0, 0.6, 0.7, 0.42)
+      debug_fill: true
+      script: <null>
+    Node: CollisionShape3D8 (CollisionShape3D)
+      Node: <null>
+      _import_path: 
+      name: CollisionShape3D8
+      unique_name_in_owner: false
+      scene_file_path: 
+      owner: x650_drone:<Node3D#4490069622888>
+      multiplayer: <Object#null>
+      Process: <null>
+      process_mode: 0
+      process_priority: 0
+      process_physics_priority: 0
+      Thread Group: <null>
+      process_thread_group: 0
+      process_thread_group_order: 0
+      process_thread_messages: 0
+      Physics Interpolation: <null>
+      physics_interpolation_mode: 0
+      Auto Translate: <null>
+      auto_translate_mode: 0
+      Editor Description: <null>
+      editor_description: 
+      Node3D: <null>
+      Transform: <null>
+      transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      position: (0.0, 0.0, 0.0)
+      rotation: (0.0, 0.0, 0.0)
+      rotation_degrees: (0.0, 0.0, 0.0)
+      quaternion: (0, 0, 0, 1)
+      basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      scale: (1.0, 1.0, 1.0)
+      rotation_edit_mode: 0
+      rotation_order: 2
+      top_level: false
+      global_position: (0.0, 0.0, 0.0)
+      global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      global_rotation: (0.0, 0.0, 0.0)
+      global_rotation_degrees: (0.0, 0.0, 0.0)
+      Visibility: <null>
+      visible: true
+      visibility_parent: 
+      CollisionShape3D: <null>
+      shape: <ConvexPolygonShape3D#-9223369851504870686>
+      disabled: false
+      debug_color: (0.0, 0.6, 0.7, 0.42)
+      debug_fill: true
+      script: <null>
+    Node: CollisionShape3D7 (CollisionShape3D)
+      Node: <null>
+      _import_path: 
+      name: CollisionShape3D7
+      unique_name_in_owner: false
+      scene_file_path: 
+      owner: x650_drone:<Node3D#4490069622888>
+      multiplayer: <Object#null>
+      Process: <null>
+      process_mode: 0
+      process_priority: 0
+      process_physics_priority: 0
+      Thread Group: <null>
+      process_thread_group: 0
+      process_thread_group_order: 0
+      process_thread_messages: 0
+      Physics Interpolation: <null>
+      physics_interpolation_mode: 0
+      Auto Translate: <null>
+      auto_translate_mode: 0
+      Editor Description: <null>
+      editor_description: 
+      Node3D: <null>
+      Transform: <null>
+      transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      position: (0.0, 0.0, 0.0)
+      rotation: (0.0, 0.0, 0.0)
+      rotation_degrees: (0.0, 0.0, 0.0)
+      quaternion: (0, 0, 0, 1)
+      basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      scale: (1.0, 1.0, 1.0)
+      rotation_edit_mode: 0
+      rotation_order: 2
+      top_level: false
+      global_position: (0.0, 0.0, 0.0)
+      global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      global_rotation: (0.0, 0.0, 0.0)
+      global_rotation_degrees: (0.0, 0.0, 0.0)
+      Visibility: <null>
+      visible: true
+      visibility_parent: 
+      CollisionShape3D: <null>
+      shape: <ConvexPolygonShape3D#-9223369851488093471>
+      disabled: false
+      debug_color: (0.0, 0.6, 0.7, 0.42)
+      debug_fill: true
+      script: <null>
+    Node: CollisionShape3D6 (CollisionShape3D)
+      Node: <null>
+      _import_path: 
+      name: CollisionShape3D6
+      unique_name_in_owner: false
+      scene_file_path: 
+      owner: x650_drone:<Node3D#4490069622888>
+      multiplayer: <Object#null>
+      Process: <null>
+      process_mode: 0
+      process_priority: 0
+      process_physics_priority: 0
+      Thread Group: <null>
+      process_thread_group: 0
+      process_thread_group_order: 0
+      process_thread_messages: 0
+      Physics Interpolation: <null>
+      physics_interpolation_mode: 0
+      Auto Translate: <null>
+      auto_translate_mode: 0
+      Editor Description: <null>
+      editor_description: 
+      Node3D: <null>
+      Transform: <null>
+      transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      position: (0.0, 0.0, 0.0)
+      rotation: (0.0, 0.0, 0.0)
+      rotation_degrees: (0.0, 0.0, 0.0)
+      quaternion: (0, 0, 0, 1)
+      basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      scale: (1.0, 1.0, 1.0)
+      rotation_edit_mode: 0
+      rotation_order: 2
+      top_level: false
+      global_position: (0.0, 0.0, 0.0)
+      global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      global_rotation: (0.0, 0.0, 0.0)
+      global_rotation_degrees: (0.0, 0.0, 0.0)
+      Visibility: <null>
+      visible: true
+      visibility_parent: 
+      CollisionShape3D: <null>
+      shape: <ConvexPolygonShape3D#-9223369851471316153>
+      disabled: false
+      debug_color: (0.0, 0.6, 0.7, 0.42)
+      debug_fill: true
+      script: <null>
+    Node: CollisionShape3D5 (CollisionShape3D)
+      Node: <null>
+      _import_path: 
+      name: CollisionShape3D5
+      unique_name_in_owner: false
+      scene_file_path: 
+      owner: x650_drone:<Node3D#4490069622888>
+      multiplayer: <Object#null>
+      Process: <null>
+      process_mode: 0
+      process_priority: 0
+      process_physics_priority: 0
+      Thread Group: <null>
+      process_thread_group: 0
+      process_thread_group_order: 0
+      process_thread_messages: 0
+      Physics Interpolation: <null>
+      physics_interpolation_mode: 0
+      Auto Translate: <null>
+      auto_translate_mode: 0
+      Editor Description: <null>
+      editor_description: 
+      Node3D: <null>
+      Transform: <null>
+      transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      position: (0.0, 0.0, 0.0)
+      rotation: (0.0, 0.0, 0.0)
+      rotation_degrees: (0.0, 0.0, 0.0)
+      quaternion: (0, 0, 0, 1)
+      basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      scale: (1.0, 1.0, 1.0)
+      rotation_edit_mode: 0
+      rotation_order: 2
+      top_level: false
+      global_position: (0.0, 0.0, 0.0)
+      global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      global_rotation: (0.0, 0.0, 0.0)
+      global_rotation_degrees: (0.0, 0.0, 0.0)
+      Visibility: <null>
+      visible: true
+      visibility_parent: 
+      CollisionShape3D: <null>
+      shape: <ConvexPolygonShape3D#-9223369851454538936>
+      disabled: false
+      debug_color: (0.0, 0.6, 0.7, 0.42)
+      debug_fill: true
+      script: <null>
+    Node: CollisionShape3D4 (CollisionShape3D)
+      Node: <null>
+      _import_path: 
+      name: CollisionShape3D4
+      unique_name_in_owner: false
+      scene_file_path: 
+      owner: x650_drone:<Node3D#4490069622888>
+      multiplayer: <Object#null>
+      Process: <null>
+      process_mode: 0
+      process_priority: 0
+      process_physics_priority: 0
+      Thread Group: <null>
+      process_thread_group: 0
+      process_thread_group_order: 0
+      process_thread_messages: 0
+      Physics Interpolation: <null>
+      physics_interpolation_mode: 0
+      Auto Translate: <null>
+      auto_translate_mode: 0
+      Editor Description: <null>
+      editor_description: 
+      Node3D: <null>
+      Transform: <null>
+      transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      position: (0.0, 0.0, 0.0)
+      rotation: (0.0, 0.0, 0.0)
+      rotation_degrees: (0.0, 0.0, 0.0)
+      quaternion: (0, 0, 0, 1)
+      basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      scale: (1.0, 1.0, 1.0)
+      rotation_edit_mode: 0
+      rotation_order: 2
+      top_level: false
+      global_position: (0.0, 0.0, 0.0)
+      global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      global_rotation: (0.0, 0.0, 0.0)
+      global_rotation_degrees: (0.0, 0.0, 0.0)
+      Visibility: <null>
+      visible: true
+      visibility_parent: 
+      CollisionShape3D: <null>
+      shape: <ConvexPolygonShape3D#-9223369851437761719>
+      disabled: false
+      debug_color: (0.0, 0.6, 0.7, 0.42)
+      debug_fill: true
+      script: <null>
+    Node: CollisionShape3D3 (CollisionShape3D)
+      Node: <null>
+      _import_path: 
+      name: CollisionShape3D3
+      unique_name_in_owner: false
+      scene_file_path: 
+      owner: x650_drone:<Node3D#4490069622888>
+      multiplayer: <Object#null>
+      Process: <null>
+      process_mode: 0
+      process_priority: 0
+      process_physics_priority: 0
+      Thread Group: <null>
+      process_thread_group: 0
+      process_thread_group_order: 0
+      process_thread_messages: 0
+      Physics Interpolation: <null>
+      physics_interpolation_mode: 0
+      Auto Translate: <null>
+      auto_translate_mode: 0
+      Editor Description: <null>
+      editor_description: 
+      Node3D: <null>
+      Transform: <null>
+      transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      position: (0.0, 0.0, 0.0)
+      rotation: (0.0, 0.0, 0.0)
+      rotation_degrees: (0.0, 0.0, 0.0)
+      quaternion: (0, 0, 0, 1)
+      basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      scale: (1.0, 1.0, 1.0)
+      rotation_edit_mode: 0
+      rotation_order: 2
+      top_level: false
+      global_position: (0.0, 0.0, 0.0)
+      global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      global_rotation: (0.0, 0.0, 0.0)
+      global_rotation_degrees: (0.0, 0.0, 0.0)
+      Visibility: <null>
+      visible: true
+      visibility_parent: 
+      CollisionShape3D: <null>
+      shape: <ConvexPolygonShape3D#-9223369851420984502>
+      disabled: false
+      debug_color: (0.0, 0.6, 0.7, 0.42)
+      debug_fill: true
+      script: <null>
+    Node: CollisionShape3D2 (CollisionShape3D)
+      Node: <null>
+      _import_path: 
+      name: CollisionShape3D2
+      unique_name_in_owner: false
+      scene_file_path: 
+      owner: x650_drone:<Node3D#4490069622888>
+      multiplayer: <Object#null>
+      Process: <null>
+      process_mode: 0
+      process_priority: 0
+      process_physics_priority: 0
+      Thread Group: <null>
+      process_thread_group: 0
+      process_thread_group_order: 0
+      process_thread_messages: 0
+      Physics Interpolation: <null>
+      physics_interpolation_mode: 0
+      Auto Translate: <null>
+      auto_translate_mode: 0
+      Editor Description: <null>
+      editor_description: 
+      Node3D: <null>
+      Transform: <null>
+      transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      position: (0.0, 0.0, 0.0)
+      rotation: (0.0, 0.0, 0.0)
+      rotation_degrees: (0.0, 0.0, 0.0)
+      quaternion: (0, 0, 0, 1)
+      basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      scale: (1.0, 1.0, 1.0)
+      rotation_edit_mode: 0
+      rotation_order: 2
+      top_level: false
+      global_position: (0.0, 0.0, 0.0)
+      global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      global_rotation: (0.0, 0.0, 0.0)
+      global_rotation_degrees: (0.0, 0.0, 0.0)
+      Visibility: <null>
+      visible: true
+      visibility_parent: 
+      CollisionShape3D: <null>
+      shape: <ConvexPolygonShape3D#-9223369851404207285>
+      disabled: false
+      debug_color: (0.0, 0.6, 0.7, 0.42)
+      debug_fill: true
+      script: <null>
+    Node: CollisionShape3D (CollisionShape3D)
+      Node: <null>
+      _import_path: 
+      name: CollisionShape3D
+      unique_name_in_owner: false
+      scene_file_path: 
+      owner: x650_drone:<Node3D#4490069622888>
+      multiplayer: <Object#null>
+      Process: <null>
+      process_mode: 0
+      process_priority: 0
+      process_physics_priority: 0
+      Thread Group: <null>
+      process_thread_group: 0
+      process_thread_group_order: 0
+      process_thread_messages: 0
+      Physics Interpolation: <null>
+      physics_interpolation_mode: 0
+      Auto Translate: <null>
+      auto_translate_mode: 0
+      Editor Description: <null>
+      editor_description: 
+      Node3D: <null>
+      Transform: <null>
+      transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      position: (0.0, 0.0, 0.0)
+      rotation: (0.0, 0.0, 0.0)
+      rotation_degrees: (0.0, 0.0, 0.0)
+      quaternion: (0, 0, 0, 1)
+      basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      scale: (1.0, 1.0, 1.0)
+      rotation_edit_mode: 0
+      rotation_order: 2
+      top_level: false
+      global_position: (0.0, 0.0, 0.0)
+      global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      global_rotation: (0.0, 0.0, 0.0)
+      global_rotation_degrees: (0.0, 0.0, 0.0)
+      Visibility: <null>
+      visible: true
+      visibility_parent: 
+      CollisionShape3D: <null>
+      shape: <ConvexPolygonShape3D#-9223369851387430068>
+      disabled: false
+      debug_color: (0.0, 0.6, 0.7, 0.42)
+      debug_fill: true
+      script: <null>
+=== res:///scenes/main_scene.tscn ===
+Node: MainScene (Node3D)
+  Node: <null>
+  _import_path: 
+  name: MainScene
+  unique_name_in_owner: false
+  scene_file_path: res://scenes/main_scene.tscn
+  owner: <Object#null>
+  multiplayer: <Object#null>
+  Process: <null>
+  process_mode: 0
+  process_priority: 0
+  process_physics_priority: 0
+  Thread Group: <null>
+  process_thread_group: 0
+  process_thread_group_order: 0
+  process_thread_messages: 0
+  Physics Interpolation: <null>
+  physics_interpolation_mode: 0
+  Auto Translate: <null>
+  auto_translate_mode: 0
+  Editor Description: <null>
+  editor_description: 
+  Node3D: <null>
+  Transform: <null>
+  transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+  global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+  position: (0.0, 0.0, 0.0)
+  rotation: (0.0, 0.0, 0.0)
+  rotation_degrees: (0.0, 0.0, 0.0)
+  quaternion: (0, 0, 0, 1)
+  basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+  scale: (1.0, 1.0, 1.0)
+  rotation_edit_mode: 0
+  rotation_order: 2
+  top_level: false
+  global_position: (0.0, 0.0, 0.0)
+  global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+  global_rotation: (0.0, 0.0, 0.0)
+  global_rotation_degrees: (0.0, 0.0, 0.0)
+  Visibility: <null>
+  visible: true
+  visibility_parent: 
+  script: <null>
+  Node: ground (StaticBody3D)
+    Node: <null>
+    _import_path: 
+    name: ground
+    unique_name_in_owner: false
+    scene_file_path: 
+    owner: MainScene:<Node3D#4490723934942>
+    multiplayer: <Object#null>
+    Process: <null>
+    process_mode: 0
+    process_priority: 0
+    process_physics_priority: 0
+    Thread Group: <null>
+    process_thread_group: 0
+    process_thread_group_order: 0
+    process_thread_messages: 0
+    Physics Interpolation: <null>
+    physics_interpolation_mode: 0
+    Auto Translate: <null>
+    auto_translate_mode: 0
+    Editor Description: <null>
+    editor_description: 
+    Node3D: <null>
+    Transform: <null>
+    transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+    global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+    position: (0.0, 0.0, 0.0)
+    rotation: (0.0, 0.0, 0.0)
+    rotation_degrees: (0.0, 0.0, 0.0)
+    quaternion: (0, 0, 0, 1)
+    basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+    scale: (1.0, 1.0, 1.0)
+    rotation_edit_mode: 0
+    rotation_order: 2
+    top_level: false
+    global_position: (0.0, 0.0, 0.0)
+    global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+    global_rotation: (0.0, 0.0, 0.0)
+    global_rotation_degrees: (0.0, 0.0, 0.0)
+    Visibility: <null>
+    visible: true
+    visibility_parent: 
+    CollisionObject3D: <null>
+    disable_mode: 0
+    Collision: <null>
+    collision_layer: 1
+    collision_mask: 1
+    collision_priority: 1.0
+    Input: <null>
+    input_ray_pickable: true
+    input_capture_on_drag: false
+    PhysicsBody3D: <null>
+    Axis Lock: <null>
+    axis_lock_linear_x: false
+    axis_lock_linear_y: false
+    axis_lock_linear_z: false
+    axis_lock_angular_x: false
+    axis_lock_angular_y: false
+    axis_lock_angular_z: false
+    StaticBody3D: <null>
+    physics_material_override: <Object#null>
+    constant_linear_velocity: (0.0, 0.0, 0.0)
+    constant_angular_velocity: (0.0, 0.0, 0.0)
+    script: <null>
+    Node: MeshInstance3D (MeshInstance3D)
+      Node: <null>
+      _import_path: 
+      name: MeshInstance3D
+      unique_name_in_owner: false
+      scene_file_path: 
+      owner: MainScene:<Node3D#4490723934942>
+      multiplayer: <Object#null>
+      Process: <null>
+      process_mode: 0
+      process_priority: 0
+      process_physics_priority: 0
+      Thread Group: <null>
+      process_thread_group: 0
+      process_thread_group_order: 0
+      process_thread_messages: 0
+      Physics Interpolation: <null>
+      physics_interpolation_mode: 0
+      Auto Translate: <null>
+      auto_translate_mode: 0
+      Editor Description: <null>
+      editor_description: 
+      Node3D: <null>
+      Transform: <null>
+      transform: [X: (50.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 50.0), O: (0.0, 0.0, 0.0)]
+      global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      position: (0.0, 0.0, 0.0)
+      rotation: (0.0, 0.0, 0.0)
+      rotation_degrees: (0.0, 0.0, 0.0)
+      quaternion: (0, 0, 0, 1)
+      basis: [X: (50.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 50.0)]
+      scale: (50.0, 1.0, 50.0)
+      rotation_edit_mode: 0
+      rotation_order: 2
+      top_level: false
+      global_position: (0.0, 0.0, 0.0)
+      global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      global_rotation: (0.0, 0.0, 0.0)
+      global_rotation_degrees: (0.0, 0.0, 0.0)
+      Visibility: <null>
+      visible: true
+      visibility_parent: 
+      VisualInstance3D: <null>
+      layers: 1
+      Sorting: <null>
+      sorting_offset: 0.0
+      sorting_use_aabb_center: true
+      GeometryInstance3D: <null>
+      Geometry: <null>
+      material_override: <Object#null>
+      material_overlay: <Object#null>
+      transparency: 0.0
+      cast_shadow: 1
+      extra_cull_margin: 0.0
+      custom_aabb: [P: (0.0, 0.0, 0.0), S: (0.0, 0.0, 0.0)]
+      lod_bias: 1.0
+      ignore_occlusion_culling: false
+      Global Illumination: <null>
+      gi_mode: 1
+      gi_lightmap_texel_scale: 1.0
+      gi_lightmap_scale: 0
+      Visibility Range: <null>
+      visibility_range_begin: 0.0
+      visibility_range_begin_margin: 0.0
+      visibility_range_end: 0.0
+      visibility_range_end_margin: 0.0
+      visibility_range_fade_mode: 0
+      MeshInstance3D: <null>
+      mesh: <BoxMesh#-9223369851286766849>
+      Skeleton: <null>
+      skin: <Object#null>
+      skeleton: ..
+      : <null>
+      surface_material_override/0: <Object#null>
+      script: <null>
+    Node: CollisionShape3D (CollisionShape3D)
+      Node: <null>
+      _import_path: 
+      name: CollisionShape3D
+      unique_name_in_owner: false
+      scene_file_path: 
+      owner: MainScene:<Node3D#4490723934942>
+      multiplayer: <Object#null>
+      Process: <null>
+      process_mode: 0
+      process_priority: 0
+      process_physics_priority: 0
+      Thread Group: <null>
+      process_thread_group: 0
+      process_thread_group_order: 0
+      process_thread_messages: 0
+      Physics Interpolation: <null>
+      physics_interpolation_mode: 0
+      Auto Translate: <null>
+      auto_translate_mode: 0
+      Editor Description: <null>
+      editor_description: 
+      Node3D: <null>
+      Transform: <null>
+      transform: [X: (50.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 50.0), O: (0.0, 0.0, 0.0)]
+      global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      position: (0.0, 0.0, 0.0)
+      rotation: (0.0, 0.0, 0.0)
+      rotation_degrees: (0.0, 0.0, 0.0)
+      quaternion: (0, 0, 0, 1)
+      basis: [X: (50.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 50.0)]
+      scale: (50.0, 1.0, 50.0)
+      rotation_edit_mode: 0
+      rotation_order: 2
+      top_level: false
+      global_position: (0.0, 0.0, 0.0)
+      global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      global_rotation: (0.0, 0.0, 0.0)
+      global_rotation_degrees: (0.0, 0.0, 0.0)
+      Visibility: <null>
+      visible: true
+      visibility_parent: 
+      CollisionShape3D: <null>
+      shape: <BoxShape3D#-9223369851269989634>
+      disabled: false
+      debug_color: (0.0, 0.6, 0.7, 0.42)
+      debug_fill: true
+      script: <null>
+  Node: camera_handle (Node3D)
+    Node: <null>
+    _import_path: 
+    name: camera_handle
+    unique_name_in_owner: false
+    scene_file_path: 
+    owner: MainScene:<Node3D#4490723934942>
+    multiplayer: <Object#null>
+    Process: <null>
+    process_mode: 0
+    process_priority: 0
+    process_physics_priority: 0
+    Thread Group: <null>
+    process_thread_group: 0
+    process_thread_group_order: 0
+    process_thread_messages: 0
+    Physics Interpolation: <null>
+    physics_interpolation_mode: 0
+    Auto Translate: <null>
+    auto_translate_mode: 0
+    Editor Description: <null>
+    editor_description: 
+    Node3D: <null>
+    Transform: <null>
+    transform: [X: (0.66262, 0.0, 0.748956), Y: (0.0, 1.0, 0.0), Z: (-0.748956, 0.0, 0.66262), O: (-1.417, 1.68, 1.189)]
+    global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+    position: (-1.417, 1.68, 1.189)
+    rotation: (0.0, -0.846485, 0.0)
+    rotation_degrees: (0.0, -48.50001, 0.0)
+    quaternion: (0, -0.410719, 0, 0.911762)
+    basis: [X: (0.66262, 0.0, 0.748956), Y: (0.0, 1.0, 0.0), Z: (-0.748956, 0.0, 0.66262)]
+    scale: (1.0, 1.0, 1.0)
+    rotation_edit_mode: 0
+    rotation_order: 2
+    top_level: false
+    global_position: (0.0, 0.0, 0.0)
+    global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+    global_rotation: (0.0, 0.0, 0.0)
+    global_rotation_degrees: (0.0, 0.0, 0.0)
+    Visibility: <null>
+    visible: true
+    visibility_parent: 
+    script: <null>
+    Node: main_camera (Camera3D)
+      Node: <null>
+      _import_path: 
+      name: main_camera
+      unique_name_in_owner: false
+      scene_file_path: 
+      owner: MainScene:<Node3D#4490723934942>
+      multiplayer: <Object#null>
+      Process: <null>
+      process_mode: 0
+      process_priority: 0
+      process_physics_priority: 0
+      Thread Group: <null>
+      process_thread_group: 0
+      process_thread_group_order: 0
+      process_thread_messages: 0
+      Physics Interpolation: <null>
+      physics_interpolation_mode: 0
+      Auto Translate: <null>
+      auto_translate_mode: 0
+      Editor Description: <null>
+      editor_description: 
+      Node3D: <null>
+      Transform: <null>
+      transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 0.932324, -0.361625), Z: (0.0, 0.361625, 0.932324), O: (0.0, 0.0, 0.0)]
+      global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      position: (0.0, 0.0, 0.0)
+      rotation: (-0.37001, 0.0, 0.0)
+      rotation_degrees: (-21.20002, 0.0, 0.0)
+      quaternion: (-0.183952, 0, 0, 0.982935)
+      basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 0.932324, -0.361625), Z: (0.0, 0.361625, 0.932324)]
+      scale: (1.0, 1.0, 1.0)
+      rotation_edit_mode: 0
+      rotation_order: 0
+      top_level: false
+      global_position: (0.0, 0.0, 0.0)
+      global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      global_rotation: (0.0, 0.0, 0.0)
+      global_rotation_degrees: (0.0, 0.0, 0.0)
+      Visibility: <null>
+      visible: true
+      visibility_parent: 
+      Camera3D: <null>
+      keep_aspect: 1
+      cull_mask: 1048575
+      environment: <Object#null>
+      attributes: <Object#null>
+      compositor: <Object#null>
+      h_offset: 0.0
+      v_offset: 0.0
+      doppler_tracking: 0
+      projection: 0
+      current: false
+      fov: 45.0
+      size: 1.0
+      frustum_offset: (0.0, 0.0)
+      near: 0.05000000074506
+      far: 4000.0
+      script: <null>
+  Node: WorldEnvironment (WorldEnvironment)
+    Node: <null>
+    _import_path: 
+    name: WorldEnvironment
+    unique_name_in_owner: false
+    scene_file_path: 
+    owner: MainScene:<Node3D#4490723934942>
+    multiplayer: <Object#null>
+    Process: <null>
+    process_mode: 0
+    process_priority: 0
+    process_physics_priority: 0
+    Thread Group: <null>
+    process_thread_group: 0
+    process_thread_group_order: 0
+    process_thread_messages: 0
+    Physics Interpolation: <null>
+    physics_interpolation_mode: 0
+    Auto Translate: <null>
+    auto_translate_mode: 0
+    Editor Description: <null>
+    editor_description: 
+    WorldEnvironment: <null>
+    environment: <Environment#-9223369851219657903>
+    camera_attributes: <Object#null>
+    compositor: <Object#null>
+    script: <null>
+  Node: DirectionalLight3D (DirectionalLight3D)
+    Node: <null>
+    _import_path: 
+    name: DirectionalLight3D
+    unique_name_in_owner: false
+    scene_file_path: 
+    owner: MainScene:<Node3D#4490723934942>
+    multiplayer: <Object#null>
+    Process: <null>
+    process_mode: 0
+    process_priority: 0
+    process_physics_priority: 0
+    Thread Group: <null>
+    process_thread_group: 0
+    process_thread_group_order: 0
+    process_thread_messages: 0
+    Physics Interpolation: <null>
+    physics_interpolation_mode: 0
+    Auto Translate: <null>
+    auto_translate_mode: 0
+    Editor Description: <null>
+    editor_description: 
+    Node3D: <null>
+    Transform: <null>
+    transform: [X: (0.707107, 0.0, -0.707107), Y: (-0.541675, 0.642788, -0.541675), Z: (0.454519, 0.766044, 0.454519), O: (0.0, 0.0, 0.0)]
+    global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+    position: (0.0, 0.0, 0.0)
+    rotation: (-0.872664, 0.785398, 0.0)
+    rotation_degrees: (-49.99997, 45.0, 0.0)
+    quaternion: (-0.390448, 0.346829, 0.161729, 0.837319)
+    basis: [X: (0.707107, 0.0, -0.707107), Y: (-0.541675, 0.642788, -0.541675), Z: (0.454519, 0.766044, 0.454519)]
+    scale: (1.0, 1.0, 0.999999)
+    rotation_edit_mode: 0
+    rotation_order: 2
+    top_level: false
+    global_position: (0.0, 0.0, 0.0)
+    global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+    global_rotation: (0.0, 0.0, 0.0)
+    global_rotation_degrees: (0.0, 0.0, 0.0)
+    Visibility: <null>
+    visible: true
+    visibility_parent: 
+    VisualInstance3D: <null>
+    layers: 1
+    Sorting: <null>
+    sorting_offset: 0.0
+    sorting_use_aabb_center: true
+    Light3D: <null>
+    Light: <null>
+    light_intensity_lumens: 100000.0
+    light_intensity_lux: 100000.0
+    light_temperature: 6500.0
+    light_color: (1.0, 1.0, 1.0, 1.0)
+    light_energy: 1.0
+    light_indirect_energy: 1.0
+    light_volumetric_fog_energy: 1.0
+    light_projector: <Object#null>
+    light_size: 0.0
+    light_angular_distance: 0.0
+    light_negative: false
+    light_specular: 1.0
+    light_bake_mode: 2
+    light_cull_mask: 4294967295
+    Shadow: <null>
+    shadow_enabled: true
+    shadow_bias: 0.10000000149012
+    shadow_normal_bias: 2.0
+    shadow_reverse_cull_face: false
+    shadow_transmittance_bias: 0.05000000074506
+    shadow_opacity: 1.0
+    shadow_blur: 1.0
+    shadow_caster_mask: 4294967295
+    Distance Fade: <null>
+    distance_fade_enabled: false
+    distance_fade_begin: 40.0
+    distance_fade_shadow: 50.0
+    distance_fade_length: 10.0
+    Editor: <null>
+    editor_only: false
+    : <null>
+    DirectionalLight3D: <null>
+    Directional Shadow: <null>
+    directional_shadow_mode: 2
+    directional_shadow_split_1: 0.10000000149012
+    directional_shadow_split_2: 0.20000000298023
+    directional_shadow_split_3: 0.5
+    directional_shadow_blend_splits: false
+    directional_shadow_fade_start: 0.80000001192093
+    directional_shadow_max_distance: 100.0
+    directional_shadow_pancake_size: 20.0
+    sky_mode: 0
+    script: <null>
+  Node: cube (Node3D)
+    Node: <null>
+    _import_path: 
+    name: cube
+    unique_name_in_owner: false
+    scene_file_path: 
+    owner: MainScene:<Node3D#4490723934942>
+    multiplayer: <Object#null>
+    Process: <null>
+    process_mode: 0
+    process_priority: 0
+    process_physics_priority: 0
+    Thread Group: <null>
+    process_thread_group: 0
+    process_thread_group_order: 0
+    process_thread_messages: 0
+    Physics Interpolation: <null>
+    physics_interpolation_mode: 0
+    Auto Translate: <null>
+    auto_translate_mode: 0
+    Editor Description: <null>
+    editor_description: 
+    Node3D: <null>
+    Transform: <null>
+    transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+    global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+    position: (0.0, 0.0, 0.0)
+    rotation: (0.0, 0.0, 0.0)
+    rotation_degrees: (0.0, 0.0, 0.0)
+    quaternion: (0, 0, 0, 1)
+    basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+    scale: (1.0, 1.0, 1.0)
+    rotation_edit_mode: 0
+    rotation_order: 2
+    top_level: false
+    global_position: (0.0, 0.0, 0.0)
+    global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+    global_rotation: (0.0, 0.0, 0.0)
+    global_rotation_degrees: (0.0, 0.0, 0.0)
+    Visibility: <null>
+    visible: true
+    visibility_parent: 
+    script: <null>
+    Node: RigidBody3D (RigidBody3D)
+      Node: <null>
+      _import_path: 
+      name: RigidBody3D
+      unique_name_in_owner: false
+      scene_file_path: 
+      owner: MainScene:<Node3D#4490723934942>
+      multiplayer: <Object#null>
+      Process: <null>
+      process_mode: 0
+      process_priority: 0
+      process_physics_priority: 0
+      Thread Group: <null>
+      process_thread_group: 0
+      process_thread_group_order: 0
+      process_thread_messages: 0
+      Physics Interpolation: <null>
+      physics_interpolation_mode: 0
+      Auto Translate: <null>
+      auto_translate_mode: 0
+      Editor Description: <null>
+      editor_description: 
+      Node3D: <null>
+      Transform: <null>
+      transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.222579, 2.94369, 0.247059)]
+      global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      position: (0.222579, 2.94369, 0.247059)
+      rotation: (0.0, 0.0, 0.0)
+      rotation_degrees: (0.0, 0.0, 0.0)
+      quaternion: (0, 0, 0, 1)
+      basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      scale: (1.0, 1.0, 1.0)
+      rotation_edit_mode: 0
+      rotation_order: 2
+      top_level: false
+      global_position: (0.0, 0.0, 0.0)
+      global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      global_rotation: (0.0, 0.0, 0.0)
+      global_rotation_degrees: (0.0, 0.0, 0.0)
+      Visibility: <null>
+      visible: true
+      visibility_parent: 
+      CollisionObject3D: <null>
+      disable_mode: 0
+      Collision: <null>
+      collision_layer: 1
+      collision_mask: 1
+      collision_priority: 1.0
+      Input: <null>
+      input_ray_pickable: true
+      input_capture_on_drag: false
+      PhysicsBody3D: <null>
+      Axis Lock: <null>
+      axis_lock_linear_x: false
+      axis_lock_linear_y: false
+      axis_lock_linear_z: false
+      axis_lock_angular_x: false
+      axis_lock_angular_y: false
+      axis_lock_angular_z: false
+      RigidBody3D: <null>
+      mass: 1.0
+      physics_material_override: <Object#null>
+      gravity_scale: 1.0
+      Mass Distribution: <null>
+      center_of_mass_mode: 0
+      center_of_mass: (0.0, 0.0, 0.0)
+      inertia: (0.0, 0.0, 0.0)
+      Deactivation: <null>
+      sleeping: false
+      can_sleep: true
+      lock_rotation: false
+      freeze: false
+      freeze_mode: 0
+      Solver: <null>
+      custom_integrator: false
+      continuous_cd: false
+      contact_monitor: false
+      max_contacts_reported: 0
+      Linear: <null>
+      linear_velocity: (0.0, 0.0, 0.0)
+      linear_damp_mode: 0
+      linear_damp: 0.0
+      Angular: <null>
+      angular_velocity: (0.0, 0.0, 0.0)
+      angular_damp_mode: 0
+      angular_damp: 0.0
+      Constant Forces: <null>
+      constant_force: (0.0, 0.0, 0.0)
+      constant_torque: (0.0, 0.0, 0.0)
+      script: <null>
+      Node: MeshInstance3D (MeshInstance3D)
+        Node: <null>
+        _import_path: 
+        name: MeshInstance3D
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: MainScene:<Node3D#4490723934942>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (0.2, 0.0, 0.0), Y: (0.0, 0.2, 0.0), Z: (0.0, 0.0, 0.2), O: (0.0, 0.0, 0.0)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (0.0, 0.0, 0.0)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (0.2, 0.0, 0.0), Y: (0.0, 0.2, 0.0), Z: (0.0, 0.0, 0.2)]
+        scale: (0.2, 0.2, 0.2)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        VisualInstance3D: <null>
+        layers: 1
+        Sorting: <null>
+        sorting_offset: 0.0
+        sorting_use_aabb_center: true
+        GeometryInstance3D: <null>
+        Geometry: <null>
+        material_override: <Object#null>
+        material_overlay: <Object#null>
+        transparency: 0.0
+        cast_shadow: 1
+        extra_cull_margin: 0.0
+        custom_aabb: [P: (0.0, 0.0, 0.0), S: (0.0, 0.0, 0.0)]
+        lod_bias: 1.0
+        ignore_occlusion_culling: false
+        Global Illumination: <null>
+        gi_mode: 1
+        gi_lightmap_texel_scale: 1.0
+        gi_lightmap_scale: 0
+        Visibility Range: <null>
+        visibility_range_begin: 0.0
+        visibility_range_begin_margin: 0.0
+        visibility_range_end: 0.0
+        visibility_range_end_margin: 0.0
+        visibility_range_fade_mode: 0
+        MeshInstance3D: <null>
+        mesh: <BoxMesh#-9223369851202880686>
+        Skeleton: <null>
+        skin: <Object#null>
+        skeleton: ../../..
+        : <null>
+        surface_material_override/0: <Object#null>
+        script: <null>
+      Node: CollisionShape3D (CollisionShape3D)
+        Node: <null>
+        _import_path: 
+        name: CollisionShape3D
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: MainScene:<Node3D#4490723934942>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (0.2, 0.0, 0.0), Y: (0.0, 0.2, 0.0), Z: (0.0, 0.0, 0.2), O: (0.0, 0.0, 0.0)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (0.0, 0.0, 0.0)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (0.2, 0.0, 0.0), Y: (0.0, 0.2, 0.0), Z: (0.0, 0.0, 0.2)]
+        scale: (0.2, 0.2, 0.2)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        CollisionShape3D: <null>
+        shape: <BoxShape3D#-9223369851186103469>
+        disabled: false
+        debug_color: (0.0, 0.6, 0.7, 0.42)
+        debug_fill: true
+        script: <null>
+  Node: x650_drone (Node3D)
+    Node: <null>
+    _import_path: 
+    name: x650_drone
+    unique_name_in_owner: false
+    scene_file_path: res://scenes/x_650_drone.tscn
+    owner: MainScene:<Node3D#4490723934942>
+    multiplayer: <Object#null>
+    Process: <null>
+    process_mode: 0
+    process_priority: 0
+    process_physics_priority: 0
+    Thread Group: <null>
+    process_thread_group: 0
+    process_thread_group_order: 0
+    process_thread_messages: 0
+    Physics Interpolation: <null>
+    physics_interpolation_mode: 0
+    Auto Translate: <null>
+    auto_translate_mode: 0
+    Editor Description: <null>
+    editor_description: 
+    Node3D: <null>
+    Transform: <null>
+    transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 1.8175, 0.0)]
+    global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+    position: (0.0, 1.8175, 0.0)
+    rotation: (0.0, 0.0, 0.0)
+    rotation_degrees: (0.0, 0.0, 0.0)
+    quaternion: (0, 0, 0, 1)
+    basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+    scale: (1.0, 1.0, 1.0)
+    rotation_edit_mode: 0
+    rotation_order: 2
+    top_level: false
+    global_position: (0.0, 0.0, 0.0)
+    global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+    global_rotation: (0.0, 0.0, 0.0)
+    global_rotation_degrees: (0.0, 0.0, 0.0)
+    Visibility: <null>
+    visible: true
+    visibility_parent: 
+    script: <null>
+    Node: drone_x650 (RigidBody3D)
+      Node: <null>
+      _import_path: 
+      name: drone_x650
+      unique_name_in_owner: false
+      scene_file_path: 
+      owner: x650_drone:<Node3D#4490942038456>
+      multiplayer: <Object#null>
+      Process: <null>
+      process_mode: 0
+      process_priority: 0
+      process_physics_priority: 0
+      Thread Group: <null>
+      process_thread_group: 0
+      process_thread_group_order: 0
+      process_thread_messages: 0
+      Physics Interpolation: <null>
+      physics_interpolation_mode: 0
+      Auto Translate: <null>
+      auto_translate_mode: 0
+      Editor Description: <null>
+      editor_description: 
+      Node3D: <null>
+      Transform: <null>
+      transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+      position: (0.0, 0.0, 0.0)
+      rotation: (0.0, 0.0, 0.0)
+      rotation_degrees: (0.0, 0.0, 0.0)
+      quaternion: (0, 0, 0, 1)
+      basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      scale: (1.0, 1.0, 1.0)
+      rotation_edit_mode: 0
+      rotation_order: 2
+      top_level: false
+      global_position: (0.0, 0.0, 0.0)
+      global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+      global_rotation: (0.0, 0.0, 0.0)
+      global_rotation_degrees: (0.0, 0.0, 0.0)
+      Visibility: <null>
+      visible: true
+      visibility_parent: 
+      CollisionObject3D: <null>
+      disable_mode: 0
+      Collision: <null>
+      collision_layer: 1
+      collision_mask: 1
+      collision_priority: 1.0
+      Input: <null>
+      input_ray_pickable: true
+      input_capture_on_drag: false
+      PhysicsBody3D: <null>
+      Axis Lock: <null>
+      axis_lock_linear_x: false
+      axis_lock_linear_y: false
+      axis_lock_linear_z: false
+      axis_lock_angular_x: false
+      axis_lock_angular_y: false
+      axis_lock_angular_z: false
+      RigidBody3D: <null>
+      mass: 1.0
+      physics_material_override: <Object#null>
+      gravity_scale: 1.0
+      Mass Distribution: <null>
+      center_of_mass_mode: 0
+      center_of_mass: (0.0, 0.0, 0.0)
+      inertia: (0.0, 0.0, 0.0)
+      Deactivation: <null>
+      sleeping: false
+      can_sleep: true
+      lock_rotation: false
+      freeze: false
+      freeze_mode: 0
+      Solver: <null>
+      custom_integrator: false
+      continuous_cd: false
+      contact_monitor: false
+      max_contacts_reported: 0
+      Linear: <null>
+      linear_velocity: (0.0, 0.0, 0.0)
+      linear_damp_mode: 0
+      linear_damp: 0.0
+      Angular: <null>
+      angular_velocity: (0.0, 0.0, 0.0)
+      angular_damp_mode: 0
+      angular_damp: 0.0
+      Constant Forces: <null>
+      constant_force: (0.0, 0.0, 0.0)
+      constant_torque: (0.0, 0.0, 0.0)
+      script: <null>
+      Node: FL_socket (Node3D)
+        Node: <null>
+        _import_path: 
+        name: FL_socket
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: x650_drone:<Node3D#4490942038456>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (-0.229946, 0.070032, -0.2299)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (-0.229946, 0.070032, -0.2299)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        scale: (1.0, 1.0, 1.0)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        script: <null>
+        Node: FL_object (MeshInstance3D)
+          Node: <null>
+          _import_path: 
+          name: FL_object
+          unique_name_in_owner: false
+          scene_file_path: 
+          owner: x650_drone:<Node3D#4490942038456>
+          multiplayer: <Object#null>
+          Process: <null>
+          process_mode: 0
+          process_priority: 0
+          process_physics_priority: 0
+          Thread Group: <null>
+          process_thread_group: 0
+          process_thread_group_order: 0
+          process_thread_messages: 0
+          Physics Interpolation: <null>
+          physics_interpolation_mode: 0
+          Auto Translate: <null>
+          auto_translate_mode: 0
+          Editor Description: <null>
+          editor_description: 
+          Node3D: <null>
+          Transform: <null>
+          transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+          global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+          position: (0.0, 0.0, 0.0)
+          rotation: (0.0, 0.0, 0.0)
+          rotation_degrees: (0.0, 0.0, 0.0)
+          quaternion: (0, 0, 0, 1)
+          basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+          scale: (1.0, 1.0, 1.0)
+          rotation_edit_mode: 0
+          rotation_order: 2
+          top_level: false
+          global_position: (0.0, 0.0, 0.0)
+          global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+          global_rotation: (0.0, 0.0, 0.0)
+          global_rotation_degrees: (0.0, 0.0, 0.0)
+          Visibility: <null>
+          visible: true
+          visibility_parent: 
+          VisualInstance3D: <null>
+          layers: 1
+          Sorting: <null>
+          sorting_offset: 0.0
+          sorting_use_aabb_center: true
+          GeometryInstance3D: <null>
+          Geometry: <null>
+          material_override: <Object#null>
+          material_overlay: <Object#null>
+          transparency: 0.0
+          cast_shadow: 1
+          extra_cull_margin: 0.0
+          custom_aabb: [P: (0.0, 0.0, 0.0), S: (0.0, 0.0, 0.0)]
+          lod_bias: 1.0
+          ignore_occlusion_culling: false
+          Global Illumination: <null>
+          gi_mode: 1
+          gi_lightmap_texel_scale: 1.0
+          gi_lightmap_scale: 0
+          Visibility Range: <null>
+          visibility_range_begin: 0.0
+          visibility_range_begin_margin: 0.0
+          visibility_range_end: 0.0
+          visibility_range_end_margin: 0.0
+          visibility_range_fade_mode: 0
+          MeshInstance3D: <null>
+          mesh: <ArrayMesh#-9223369851957855494>
+          Skeleton: <null>
+          skin: <Object#null>
+          skeleton: 
+          : <null>
+          surface_material_override/0: <StandardMaterial3D#-9223369852058518788>
+          script: <null>
+      Node: FR_socket (Node3D)
+        Node: <null>
+        _import_path: 
+        name: FR_socket
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: x650_drone:<Node3D#4490942038456>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.229946, 0.070032, -0.2299)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (0.229946, 0.070032, -0.2299)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        scale: (1.0, 1.0, 1.0)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        script: <null>
+        Node: FR_object (MeshInstance3D)
+          Node: <null>
+          _import_path: 
+          name: FR_object
+          unique_name_in_owner: false
+          scene_file_path: 
+          owner: x650_drone:<Node3D#4490942038456>
+          multiplayer: <Object#null>
+          Process: <null>
+          process_mode: 0
+          process_priority: 0
+          process_physics_priority: 0
+          Thread Group: <null>
+          process_thread_group: 0
+          process_thread_group_order: 0
+          process_thread_messages: 0
+          Physics Interpolation: <null>
+          physics_interpolation_mode: 0
+          Auto Translate: <null>
+          auto_translate_mode: 0
+          Editor Description: <null>
+          editor_description: 
+          Node3D: <null>
+          Transform: <null>
+          transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+          global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+          position: (0.0, 0.0, 0.0)
+          rotation: (0.0, 0.0, 0.0)
+          rotation_degrees: (0.0, 0.0, 0.0)
+          quaternion: (0, 0, 0, 1)
+          basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+          scale: (1.0, 1.0, 1.0)
+          rotation_edit_mode: 0
+          rotation_order: 2
+          top_level: false
+          global_position: (0.0, 0.0, 0.0)
+          global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+          global_rotation: (0.0, 0.0, 0.0)
+          global_rotation_degrees: (0.0, 0.0, 0.0)
+          Visibility: <null>
+          visible: true
+          visibility_parent: 
+          VisualInstance3D: <null>
+          layers: 1
+          Sorting: <null>
+          sorting_offset: 0.0
+          sorting_use_aabb_center: true
+          GeometryInstance3D: <null>
+          Geometry: <null>
+          material_override: <Object#null>
+          material_overlay: <Object#null>
+          transparency: 0.0
+          cast_shadow: 1
+          extra_cull_margin: 0.0
+          custom_aabb: [P: (0.0, 0.0, 0.0), S: (0.0, 0.0, 0.0)]
+          lod_bias: 1.0
+          ignore_occlusion_culling: false
+          Global Illumination: <null>
+          gi_mode: 1
+          gi_lightmap_texel_scale: 1.0
+          gi_lightmap_scale: 0
+          Visibility Range: <null>
+          visibility_range_begin: 0.0
+          visibility_range_begin_margin: 0.0
+          visibility_range_end: 0.0
+          visibility_range_end_margin: 0.0
+          visibility_range_fade_mode: 0
+          MeshInstance3D: <null>
+          mesh: <ArrayMesh#-9223369851890746633>
+          Skeleton: <null>
+          skin: <Object#null>
+          skeleton: 
+          : <null>
+          surface_material_override/0: <StandardMaterial3D#-9223369852058518788>
+          script: <null>
+      Node: RL_socket (Node3D)
+        Node: <null>
+        _import_path: 
+        name: RL_socket
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: x650_drone:<Node3D#4490942038456>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (-0.229946, 0.070032, 0.2299)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (-0.229946, 0.070032, 0.2299)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        scale: (1.0, 1.0, 1.0)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        script: <null>
+        Node: RL_object (MeshInstance3D)
+          Node: <null>
+          _import_path: 
+          name: RL_object
+          unique_name_in_owner: false
+          scene_file_path: 
+          owner: x650_drone:<Node3D#4490942038456>
+          multiplayer: <Object#null>
+          Process: <null>
+          process_mode: 0
+          process_priority: 0
+          process_physics_priority: 0
+          Thread Group: <null>
+          process_thread_group: 0
+          process_thread_group_order: 0
+          process_thread_messages: 0
+          Physics Interpolation: <null>
+          physics_interpolation_mode: 0
+          Auto Translate: <null>
+          auto_translate_mode: 0
+          Editor Description: <null>
+          editor_description: 
+          Node3D: <null>
+          Transform: <null>
+          transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+          global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+          position: (0.0, 0.0, 0.0)
+          rotation: (0.0, 0.0, 0.0)
+          rotation_degrees: (0.0, 0.0, 0.0)
+          quaternion: (0, 0, 0, 1)
+          basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+          scale: (1.0, 1.0, 1.0)
+          rotation_edit_mode: 0
+          rotation_order: 2
+          top_level: false
+          global_position: (0.0, 0.0, 0.0)
+          global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+          global_rotation: (0.0, 0.0, 0.0)
+          global_rotation_degrees: (0.0, 0.0, 0.0)
+          Visibility: <null>
+          visible: true
+          visibility_parent: 
+          VisualInstance3D: <null>
+          layers: 1
+          Sorting: <null>
+          sorting_offset: 0.0
+          sorting_use_aabb_center: true
+          GeometryInstance3D: <null>
+          Geometry: <null>
+          material_override: <Object#null>
+          material_overlay: <Object#null>
+          transparency: 0.0
+          cast_shadow: 1
+          extra_cull_margin: 0.0
+          custom_aabb: [P: (0.0, 0.0, 0.0), S: (0.0, 0.0, 0.0)]
+          lod_bias: 1.0
+          ignore_occlusion_culling: false
+          Global Illumination: <null>
+          gi_mode: 1
+          gi_lightmap_texel_scale: 1.0
+          gi_lightmap_scale: 0
+          Visibility Range: <null>
+          visibility_range_begin: 0.0
+          visibility_range_begin_margin: 0.0
+          visibility_range_end: 0.0
+          visibility_range_end_margin: 0.0
+          visibility_range_fade_mode: 0
+          MeshInstance3D: <null>
+          mesh: <ArrayMesh#-9223369851840414988>
+          Skeleton: <null>
+          skin: <Object#null>
+          skeleton: 
+          : <null>
+          surface_material_override/0: <StandardMaterial3D#-9223369852058518788>
+          script: <null>
+      Node: RR_socket (Node3D)
+        Node: <null>
+        _import_path: 
+        name: RR_socket
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: x650_drone:<Node3D#4490942038456>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.229946, 0.070032, 0.2299)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (0.229946, 0.070032, 0.2299)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        scale: (1.0, 1.0, 1.0)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        script: <null>
+        Node: RR_object (MeshInstance3D)
+          Node: <null>
+          _import_path: 
+          name: RR_object
+          unique_name_in_owner: false
+          scene_file_path: 
+          owner: x650_drone:<Node3D#4490942038456>
+          multiplayer: <Object#null>
+          Process: <null>
+          process_mode: 0
+          process_priority: 0
+          process_physics_priority: 0
+          Thread Group: <null>
+          process_thread_group: 0
+          process_thread_group_order: 0
+          process_thread_messages: 0
+          Physics Interpolation: <null>
+          physics_interpolation_mode: 0
+          Auto Translate: <null>
+          auto_translate_mode: 0
+          Editor Description: <null>
+          editor_description: 
+          Node3D: <null>
+          Transform: <null>
+          transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+          global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+          position: (0.0, 0.0, 0.0)
+          rotation: (0.0, 0.0, 0.0)
+          rotation_degrees: (0.0, 0.0, 0.0)
+          quaternion: (0, 0, 0, 1)
+          basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+          scale: (1.0, 1.0, 1.0)
+          rotation_edit_mode: 0
+          rotation_order: 2
+          top_level: false
+          global_position: (0.0, 0.0, 0.0)
+          global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+          global_rotation: (0.0, 0.0, 0.0)
+          global_rotation_degrees: (0.0, 0.0, 0.0)
+          Visibility: <null>
+          visible: true
+          visibility_parent: 
+          VisualInstance3D: <null>
+          layers: 1
+          Sorting: <null>
+          sorting_offset: 0.0
+          sorting_use_aabb_center: true
+          GeometryInstance3D: <null>
+          Geometry: <null>
+          material_override: <Object#null>
+          material_overlay: <Object#null>
+          transparency: 0.0
+          cast_shadow: 1
+          extra_cull_margin: 0.0
+          custom_aabb: [P: (0.0, 0.0, 0.0), S: (0.0, 0.0, 0.0)]
+          lod_bias: 1.0
+          ignore_occlusion_culling: false
+          Global Illumination: <null>
+          gi_mode: 1
+          gi_lightmap_texel_scale: 1.0
+          gi_lightmap_scale: 0
+          Visibility Range: <null>
+          visibility_range_begin: 0.0
+          visibility_range_begin_margin: 0.0
+          visibility_range_end: 0.0
+          visibility_range_end_margin: 0.0
+          visibility_range_fade_mode: 0
+          MeshInstance3D: <null>
+          mesh: <ArrayMesh#-9223369851790083343>
+          Skeleton: <null>
+          skin: <Object#null>
+          skeleton: 
+          : <null>
+          surface_material_override/0: <StandardMaterial3D#-9223369852058518788>
+          script: <null>
+      Node: drone_x650 (MeshInstance3D)
+        Node: <null>
+        _import_path: 
+        name: drone_x650
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: x650_drone:<Node3D#4490942038456>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (0.0, 0.0, 0.0)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        scale: (1.0, 1.0, 1.0)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        VisualInstance3D: <null>
+        layers: 1
+        Sorting: <null>
+        sorting_offset: 0.0
+        sorting_use_aabb_center: true
+        GeometryInstance3D: <null>
+        Geometry: <null>
+        material_override: <Object#null>
+        material_overlay: <Object#null>
+        transparency: 0.0
+        cast_shadow: 1
+        extra_cull_margin: 0.0
+        custom_aabb: [P: (0.0, 0.0, 0.0), S: (0.0, 0.0, 0.0)]
+        lod_bias: 1.0
+        ignore_occlusion_culling: false
+        Global Illumination: <null>
+        gi_mode: 1
+        gi_lightmap_texel_scale: 1.0
+        gi_lightmap_scale: 0
+        Visibility Range: <null>
+        visibility_range_begin: 0.0
+        visibility_range_begin_margin: 0.0
+        visibility_range_end: 0.0
+        visibility_range_end_margin: 0.0
+        visibility_range_fade_mode: 0
+        MeshInstance3D: <null>
+        mesh: <ArrayMesh#-9223369851722974482>
+        Skeleton: <null>
+        skin: <Object#null>
+        skeleton: 
+        : <null>
+        surface_material_override/0: <Object#null>
+        script: <null>
+      Node: CollisionShape3D19 (CollisionShape3D)
+        Node: <null>
+        _import_path: 
+        name: CollisionShape3D19
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: x650_drone:<Node3D#4490942038456>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (0.0, 0.0, 0.0)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        scale: (1.0, 1.0, 1.0)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        CollisionShape3D: <null>
+        shape: <ConvexPolygonShape3D#-9223369851689420051>
+        disabled: false
+        debug_color: (0.0, 0.6, 0.7, 0.42)
+        debug_fill: true
+        script: <null>
+      Node: CollisionShape3D18 (CollisionShape3D)
+        Node: <null>
+        _import_path: 
+        name: CollisionShape3D18
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: x650_drone:<Node3D#4490942038456>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (0.0, 0.0, 0.0)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        scale: (1.0, 1.0, 1.0)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        CollisionShape3D: <null>
+        shape: <ConvexPolygonShape3D#-9223369851672642836>
+        disabled: false
+        debug_color: (0.0, 0.6, 0.7, 0.42)
+        debug_fill: true
+        script: <null>
+      Node: CollisionShape3D17 (CollisionShape3D)
+        Node: <null>
+        _import_path: 
+        name: CollisionShape3D17
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: x650_drone:<Node3D#4490942038456>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (0.0, 0.0, 0.0)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        scale: (1.0, 1.0, 1.0)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        CollisionShape3D: <null>
+        shape: <ConvexPolygonShape3D#-9223369851655865621>
+        disabled: false
+        debug_color: (0.0, 0.6, 0.7, 0.42)
+        debug_fill: true
+        script: <null>
+      Node: CollisionShape3D16 (CollisionShape3D)
+        Node: <null>
+        _import_path: 
+        name: CollisionShape3D16
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: x650_drone:<Node3D#4490942038456>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (0.0, 0.0, 0.0)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        scale: (1.0, 1.0, 1.0)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        CollisionShape3D: <null>
+        shape: <ConvexPolygonShape3D#-9223369851639088406>
+        disabled: false
+        debug_color: (0.0, 0.6, 0.7, 0.42)
+        debug_fill: true
+        script: <null>
+      Node: CollisionShape3D15 (CollisionShape3D)
+        Node: <null>
+        _import_path: 
+        name: CollisionShape3D15
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: x650_drone:<Node3D#4490942038456>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (0.0, 0.0, 0.0)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        scale: (1.0, 1.0, 1.0)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        CollisionShape3D: <null>
+        shape: <ConvexPolygonShape3D#-9223369851622311191>
+        disabled: false
+        debug_color: (0.0, 0.6, 0.7, 0.42)
+        debug_fill: true
+        script: <null>
+      Node: CollisionShape3D14 (CollisionShape3D)
+        Node: <null>
+        _import_path: 
+        name: CollisionShape3D14
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: x650_drone:<Node3D#4490942038456>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (0.0, 0.0, 0.0)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        scale: (1.0, 1.0, 1.0)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        CollisionShape3D: <null>
+        shape: <ConvexPolygonShape3D#-9223369851605533976>
+        disabled: false
+        debug_color: (0.0, 0.6, 0.7, 0.42)
+        debug_fill: true
+        script: <null>
+      Node: CollisionShape3D13 (CollisionShape3D)
+        Node: <null>
+        _import_path: 
+        name: CollisionShape3D13
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: x650_drone:<Node3D#4490942038456>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (0.0, 0.0, 0.0)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        scale: (1.0, 1.0, 1.0)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        CollisionShape3D: <null>
+        shape: <ConvexPolygonShape3D#-9223369851588756761>
+        disabled: false
+        debug_color: (0.0, 0.6, 0.7, 0.42)
+        debug_fill: true
+        script: <null>
+      Node: CollisionShape3D12 (CollisionShape3D)
+        Node: <null>
+        _import_path: 
+        name: CollisionShape3D12
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: x650_drone:<Node3D#4490942038456>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (0.0, 0.0, 0.0)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        scale: (1.0, 1.0, 1.0)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        CollisionShape3D: <null>
+        shape: <ConvexPolygonShape3D#-9223369851571979546>
+        disabled: false
+        debug_color: (0.0, 0.6, 0.7, 0.42)
+        debug_fill: true
+        script: <null>
+      Node: CollisionShape3D11 (CollisionShape3D)
+        Node: <null>
+        _import_path: 
+        name: CollisionShape3D11
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: x650_drone:<Node3D#4490942038456>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (0.0, 0.0, 0.0)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        scale: (1.0, 1.0, 1.0)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        CollisionShape3D: <null>
+        shape: <ConvexPolygonShape3D#-9223369851555202331>
+        disabled: false
+        debug_color: (0.0, 0.6, 0.7, 0.42)
+        debug_fill: true
+        script: <null>
+      Node: CollisionShape3D10 (CollisionShape3D)
+        Node: <null>
+        _import_path: 
+        name: CollisionShape3D10
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: x650_drone:<Node3D#4490942038456>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (0.0, 0.0, 0.0)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        scale: (1.0, 1.0, 1.0)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        CollisionShape3D: <null>
+        shape: <ConvexPolygonShape3D#-9223369851538425116>
+        disabled: false
+        debug_color: (0.0, 0.6, 0.7, 0.42)
+        debug_fill: true
+        script: <null>
+      Node: CollisionShape3D9 (CollisionShape3D)
+        Node: <null>
+        _import_path: 
+        name: CollisionShape3D9
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: x650_drone:<Node3D#4490942038456>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (0.0, 0.0, 0.0)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        scale: (1.0, 1.0, 1.0)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        CollisionShape3D: <null>
+        shape: <ConvexPolygonShape3D#-9223369851521647901>
+        disabled: false
+        debug_color: (0.0, 0.6, 0.7, 0.42)
+        debug_fill: true
+        script: <null>
+      Node: CollisionShape3D8 (CollisionShape3D)
+        Node: <null>
+        _import_path: 
+        name: CollisionShape3D8
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: x650_drone:<Node3D#4490942038456>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (0.0, 0.0, 0.0)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        scale: (1.0, 1.0, 1.0)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        CollisionShape3D: <null>
+        shape: <ConvexPolygonShape3D#-9223369851504870686>
+        disabled: false
+        debug_color: (0.0, 0.6, 0.7, 0.42)
+        debug_fill: true
+        script: <null>
+      Node: CollisionShape3D7 (CollisionShape3D)
+        Node: <null>
+        _import_path: 
+        name: CollisionShape3D7
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: x650_drone:<Node3D#4490942038456>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (0.0, 0.0, 0.0)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        scale: (1.0, 1.0, 1.0)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        CollisionShape3D: <null>
+        shape: <ConvexPolygonShape3D#-9223369851488093471>
+        disabled: false
+        debug_color: (0.0, 0.6, 0.7, 0.42)
+        debug_fill: true
+        script: <null>
+      Node: CollisionShape3D6 (CollisionShape3D)
+        Node: <null>
+        _import_path: 
+        name: CollisionShape3D6
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: x650_drone:<Node3D#4490942038456>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (0.0, 0.0, 0.0)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        scale: (1.0, 1.0, 1.0)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        CollisionShape3D: <null>
+        shape: <ConvexPolygonShape3D#-9223369851471316153>
+        disabled: false
+        debug_color: (0.0, 0.6, 0.7, 0.42)
+        debug_fill: true
+        script: <null>
+      Node: CollisionShape3D5 (CollisionShape3D)
+        Node: <null>
+        _import_path: 
+        name: CollisionShape3D5
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: x650_drone:<Node3D#4490942038456>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (0.0, 0.0, 0.0)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        scale: (1.0, 1.0, 1.0)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        CollisionShape3D: <null>
+        shape: <ConvexPolygonShape3D#-9223369851454538936>
+        disabled: false
+        debug_color: (0.0, 0.6, 0.7, 0.42)
+        debug_fill: true
+        script: <null>
+      Node: CollisionShape3D4 (CollisionShape3D)
+        Node: <null>
+        _import_path: 
+        name: CollisionShape3D4
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: x650_drone:<Node3D#4490942038456>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (0.0, 0.0, 0.0)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        scale: (1.0, 1.0, 1.0)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        CollisionShape3D: <null>
+        shape: <ConvexPolygonShape3D#-9223369851437761719>
+        disabled: false
+        debug_color: (0.0, 0.6, 0.7, 0.42)
+        debug_fill: true
+        script: <null>
+      Node: CollisionShape3D3 (CollisionShape3D)
+        Node: <null>
+        _import_path: 
+        name: CollisionShape3D3
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: x650_drone:<Node3D#4490942038456>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (0.0, 0.0, 0.0)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        scale: (1.0, 1.0, 1.0)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        CollisionShape3D: <null>
+        shape: <ConvexPolygonShape3D#-9223369851420984502>
+        disabled: false
+        debug_color: (0.0, 0.6, 0.7, 0.42)
+        debug_fill: true
+        script: <null>
+      Node: CollisionShape3D2 (CollisionShape3D)
+        Node: <null>
+        _import_path: 
+        name: CollisionShape3D2
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: x650_drone:<Node3D#4490942038456>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (0.0, 0.0, 0.0)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        scale: (1.0, 1.0, 1.0)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        CollisionShape3D: <null>
+        shape: <ConvexPolygonShape3D#-9223369851404207285>
+        disabled: false
+        debug_color: (0.0, 0.6, 0.7, 0.42)
+        debug_fill: true
+        script: <null>
+      Node: CollisionShape3D (CollisionShape3D)
+        Node: <null>
+        _import_path: 
+        name: CollisionShape3D
+        unique_name_in_owner: false
+        scene_file_path: 
+        owner: x650_drone:<Node3D#4490942038456>
+        multiplayer: <Object#null>
+        Process: <null>
+        process_mode: 0
+        process_priority: 0
+        process_physics_priority: 0
+        Thread Group: <null>
+        process_thread_group: 0
+        process_thread_group_order: 0
+        process_thread_messages: 0
+        Physics Interpolation: <null>
+        physics_interpolation_mode: 0
+        Auto Translate: <null>
+        auto_translate_mode: 0
+        Editor Description: <null>
+        editor_description: 
+        Node3D: <null>
+        Transform: <null>
+        transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        global_transform: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0), O: (0.0, 0.0, 0.0)]
+        position: (0.0, 0.0, 0.0)
+        rotation: (0.0, 0.0, 0.0)
+        rotation_degrees: (0.0, 0.0, 0.0)
+        quaternion: (0, 0, 0, 1)
+        basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        scale: (1.0, 1.0, 1.0)
+        rotation_edit_mode: 0
+        rotation_order: 2
+        top_level: false
+        global_position: (0.0, 0.0, 0.0)
+        global_basis: [X: (1.0, 0.0, 0.0), Y: (0.0, 1.0, 0.0), Z: (0.0, 0.0, 1.0)]
+        global_rotation: (0.0, 0.0, 0.0)
+        global_rotation_degrees: (0.0, 0.0, 0.0)
+        Visibility: <null>
+        visible: true
+        visibility_parent: 
+        CollisionShape3D: <null>
+        shape: <ConvexPolygonShape3D#-9223369851387430068>
+        disabled: false
+        debug_color: (0.0, 0.6, 0.7, 0.42)
+        debug_fill: true
+        script: <null>

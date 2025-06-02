@@ -1,0 +1,46 @@
+# Git LFS tracking rules
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.zip   filter=lfs diff=lfs merge=lfs -text
+
+# Ignore generated and temp files from tools
+.godot/                 export-ignore
+.import/                export-ignore
+.export/                export-ignore
+*.uid                   export-ignore
+*.pck                   export-ignore
+*.exe                   export-ignore
+*.dll                   export-ignore
+*.so                    export-ignore
+*.dylib                 export-ignore
+*.apk                   export-ignore
+*.aab                   export-ignore
+*.ipa                   export-ignore
+*.app                   export-ignore
+*.log                   export-ignore
+*.tmp                   export-ignore
+
+# Blender autosaves / backups
+*.blend1                export-ignore
+*.blend2                export-ignore
+*.blend@                export-ignore
+
+# IDE and system clutter
+.vscode/                export-ignore
+.idea/                  export-ignore
+*.swp                   export-ignore
+*~                      export-ignore
+.DS_Store               export-ignore
+Thumbs.db               export-ignore
+
+# PX4 firmware build output
+Firmware/build/         export-ignore
+Firmware/px4_*/         export-ignore
+
+# ROS 2 colcon workspace build artifacts
+build/                  export-ignore
+install/                export-ignore
+log/                    export-ignore
+
+# Custom project-level ignores
+godot_engine            export-ignore
+*.bak                   export-ignore

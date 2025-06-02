@@ -1,0 +1,5 @@
+Godot Version: 4.4.1 stable
+application/config/name: Nili Simulation
+application/config/version: 
+application/config/description: 
+application/run/main_scene: uid://s3u24q2p6d41

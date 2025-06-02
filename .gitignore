@@ -1,0 +1,45 @@
+# --- Godot --------------------------------------------
+.godot/
+.import/
+.export/
+*.uid
+*.pck
+*.exe
+*.dll
+*.so
+*.dylib
+*.apk
+*.aab
+*.ipa
+*.app
+*.log
+*.tmp
+# .godot/editor_settings-4.tres
+
+# --- Blender ------------------------------------------
+*.blend1
+*.blend2
+*.blend@
+
+# --- VSCode / OS --------------------------------------
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# --- PX4 build output ----------------------------------
+Firmware/build/
+Firmware/px4_*/
+
+# --- ROS 2 colcon workspace ----------------------------
+build/
+install/
+log/
+
+# --- Custom ignore -------------------------------------
+godot_engine
+*.bak
+godot_projects/nili/godot_bin/Godot_v4.4.1-stable_linux.x86_64
+godot_engine
