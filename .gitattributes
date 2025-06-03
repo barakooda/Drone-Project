@@ -1,6 +1,7 @@
 # Git LFS tracking rules
 *.blend filter=lfs diff=lfs merge=lfs -text
 *.zip   filter=lfs diff=lfs merge=lfs -text
+*.glb   filter=lfs diff=lfs merge=lfs -text 
 
 # Ignore generated and temp files from tools
 .godot/                 export-ignore
