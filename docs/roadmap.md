@@ -1,6 +1,6 @@
 # 🛸 Drone-for-Agriculture Roadmap
 
-**Owner:** [Your Name]  
+**Owner:** [Barak Koren]  
 **Start Date:** 2025-06-01  
 **Target Completion:** 2025-08-31  
 **Status:** In Progress
