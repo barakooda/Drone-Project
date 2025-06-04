@@ -54,7 +54,7 @@ func _build_multimesh() -> void:
 	var scale_basis := Basis().scaled(Vector3(radius, height * 0.5, radius)) # CylinderMesh is 1 m tall, centred at origin
 
 	# ── 4. Write per-instance transforms ─────────────────────────
-	for i in verts.size():
+        for i in range(verts.size()):
 		var xform := Transform3D()
 		xform.basis  = scale_basis
 		xform.origin = verts[i]
